@@ -1,0 +1,67 @@
+.head
+  font-size: 14px
+  padding: 18px 0
+  > .wrapper
+    +cf
+    position: relative
+  +media-query(desk)
+    font-size: 16px
+    padding: 24px 0
+
+.head__row
+  +media-query(desk)
+    display: table
+    width: 100%
+
+.head__cell
+  +media-query(desk)
+    display: table-cell
+    vertical-align: middle
+
+.head-btn
+  display: block
+  float: right
+  > svg
+    display: block
+    height: 34px
+    width: 34px
+  +media-query(lap)
+    > svg
+      height: 38px
+      width: 38px
+  +media-query(desk)
+    display: none
+
+.head-nav
+  background: #f7f7f7
+  border: 1px solid rgba(#000, .08)
+  //display: none
+  line-height: 1
+  list-style: none
+  margin: 18px 0 0
+  width: 100%
+  > li
+    border-bottom: 1px dotted rgba(#000, .08)
+    > a
+      color: #7d7d7d
+      display: block
+      padding: 12px
+      &:hover
+        background: #6187ad
+        color: #fff
+    &:last-child
+      border-bottom: none
+  +media-query(desk)
+    background: transparent
+    border: none
+    display: block
+    float: right
+    margin-top: 0
+    width: auto
+    > li
+      border-bottom: none
+      float: left
+
+.head-nav--open
+  display: block
+
