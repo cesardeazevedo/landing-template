@@ -1,0 +1,25 @@
+{
+  "name": "bitkup.github.io",
+  "version": "0.0.1",
+  "homepage": "https://github.com/bitkup/bitkup.github.io",
+  "description": "bower components for bitkup landing page",
+  "keywords": [
+    "bitkup"
+  ],
+  "authors": [
+    "Anderson-Juhasc",
+    "Cesar Augusto"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mdi": "~1.1.34"
+  }
+}
