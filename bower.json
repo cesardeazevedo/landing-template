@@ -20,6 +20,8 @@
     "tests"
   ],
   "dependencies": {
-    "mdi": "~1.1.34"
+    "mdi": "~1.1.34",
+    "jquery": "~2.1.4",
+    "owl-carousel2": "2.0.0-beta.2.4"
   }
 }
