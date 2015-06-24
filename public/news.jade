@@ -1,0 +1,9 @@
+.news
+  .news__row
+    .wrapper
+      .owl-carousel
+        for journal in news
+          div
+            .news__cell
+              a(href="#{journal.url}" target="blank")
+                img.journal(src="#{journal.name}")
