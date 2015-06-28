@@ -3,12 +3,16 @@
   background-size: cover
   color: #fff
   font-size: 14px
-  padding: 18px 0
   > .wrapper
     +cf
     position: relative
   +media-query(desk)
     font-size: 16px
+
+.head__bg
+  background: url(../img/noise.png) repeat, rgba(#000, .4)
+  padding: 18px 0
+  +media-query(desk)
     padding: 36px 0
 
 .head__row
@@ -68,3 +72,6 @@
 .head-nav--open
   display: block
 
+.logo
+  > img
+    width: 200px
