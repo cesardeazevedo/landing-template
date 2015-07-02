@@ -46,49 +46,55 @@ html(lang='en')
               a.head-btn(href='')
                 svg#Layer_1.head-btn__open(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='100px', height='100px', viewbox='0 0 100 100', enable-background='new 0 0 100 100', xml:space='preserve')
                       g
-                        path(fill='#5f5f5f', d='M75.157,32.733c0,1.398-1.133,2.532-2.532,2.532H27.433c-1.398,0-2.532-1.133-2.532-2.532l0,0\
+                        path(fill='#ffffff', d='M75.157,32.733c0,1.398-1.133,2.532-2.532,2.532H27.433c-1.398,0-2.532-1.133-2.532-2.532l0,0\
                         c0-1.398,1.133-2.532,2.532-2.532h45.192C74.023,30.202,75.157,31.335,75.157,32.733L75.157,32.733z')
-                        path(fill='#5f5f5f', d='M75.157,49.084c0,1.398-1.133,2.532-2.532,2.532H27.433c-1.398,0-2.532-1.133-2.532-2.532l0,0\
+                        path(fill='#ffffff', d='M75.157,49.084c0,1.398-1.133,2.532-2.532,2.532H27.433c-1.398,0-2.532-1.133-2.532-2.532l0,0\
                         c0-1.398,1.133-2.532,2.532-2.532h45.192C74.023,46.552,75.157,47.686,75.157,49.084L75.157,49.084z')
-                        path(fill='#5f5f5f', d='M75.157,65.434c0,1.398-1.133,2.532-2.532,2.532H27.433c-1.398,0-2.532-1.133-2.532-2.532l0,0\
+                        path(fill='#ffffff', d='M75.157,65.434c0,1.398-1.133,2.532-2.532,2.532H27.433c-1.398,0-2.532-1.133-2.532-2.532l0,0\
                         c0-1.398,1.133-2.532,2.532-2.532h45.192C74.023,62.903,75.157,64.036,75.157,65.434L75.157,65.434z')
                         g
                           g
-                            path(fill='#5f5f5f', d='M50.029,0C22.399,0,0,22.399,0,50.029s22.399,50.029,50.029,50.029s50.029-22.399,50.029-50.029\
+                            path(fill='#ffffff', d='M50.029,0C22.399,0,0,22.399,0,50.029s22.399,50.029,50.029,50.029s50.029-22.399,50.029-50.029\
                             S77.659,0,50.029,0z M50.029,95.078c-24.88,0-45.049-20.169-45.049-45.049S25.149,4.98,50.029,4.98s45.049,20.169,45.049,45.049\
                             S74.909,95.078,50.029,95.078z')
 
             .head__cell
               ul.head-nav
                 li
-                  a(href='') About
+                  a(href='') Como Funciona?
                 li
-                  a(href='') Our Platform
+                  a(href='') Nossa Plataforma
                 li
-                  a(href='') What is Bitcoin?
+                  a(href='') Ligas
                 li
-                  a(href='contact') Contact
-                li.dropdown
-                  .dropdown-active
-                    .dropdown-active__icon
-                    .dropdown-active__text Language
-                  ul.dropdown__body
-                    li
-                      a(href='/') EN
-                    li
-                      a(href='/pt-br/') PT-BR
-                    li
-                      a(href='/es/') ES
+                  a(href='') Esportes
+                li
+                  a(href='') Regras
+                li
+                  a(href='') FAQ
+                li
+                  a(href='') Ajuda
+                //li.dropdown
+                //  .dropdown-active
+                //    .dropdown-active__icon
+                //    .dropdown-active__text Language
+                //  ul.dropdown__body
+                //    li
+                //      a(href='/') EN
+                //    li
+                //      a(href='/pt-br/') PT-BR
+                //    li
+                //      a(href='/es/') ES
           if current.source == 'index'
             .banner
-              h1.banner__title Say hello to genuine platform of sports prediction game with Bitcoin
-              p.banner__subtitle Writing your predictions in the Bitcoin Blockchain has never been easier
+              h1.banner__title A Bitkup é um jogo que permite os fãs de esportes a prever o resultado de jogos usando Bitcoin.
+              p.banner__subtitle Preveja corretamente os placares e dispute quantidades <strong>INSANAS</strong> de Bitcoin.
               div
                 ul.banner__list
                   li
-                    a(href='').btn.btn--lrg.btn--white How it works?
+                    a(href='').btn.btn--lrg.btn--white COMO FUNCIONA?
                   li
-                    a(href='').btn.btn--lrg.btn--blue Get early Access
+                    a(href='').btn.btn--lrg.btn--blue SOLICITAR ACESSO BETA
 
     != yield
 
@@ -98,11 +104,15 @@ html(lang='en')
           li
             foot-copy Bitkup &copy; 2013 - 2015
           li
-            a(href="") Imprensa
-          li
             a(href="") Termos de Uso
           li
             a(href="") Política de Privacidade
+          li
+            a(href="") Imprensa
+          li
+            a(href="") Ajude na tradução
+          li
+            a(href="") 100% Open-Source
 
         ul.foot-social
           li
