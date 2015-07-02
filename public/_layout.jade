@@ -1,5 +1,5 @@
 doctype html
-html(lang='en')
+html(lang='pt-br')
   head
     meta(charset='UTF-8')
     meta(name='viewport' content='width=device-width, initial-scale=1')
@@ -41,7 +41,7 @@ html(lang='en')
         .wrapper
           .head__row
             .head__cell
-              a.logo(href='index')
+              a.logo(href='/')
                 img(src='assets/img/logo.png')
               a.head-btn(href='')
                 svg#Layer_1.head-btn__open(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='100px', height='100px', viewbox='0 0 100 100', enable-background='new 0 0 100 100', xml:space='preserve')
@@ -61,19 +61,15 @@ html(lang='en')
             .head__cell
               ul.head-nav
                 li
-                  a(href='') Como Funciona?
+                  a(href='/#works') Como Funciona?
                 li
-                  a(href='') Nossa Plataforma
+                  a(href='/#platform') Nossa Plataforma
                 li
-                  a(href='') Ligas
+                  a(href='/#whatis') O que é Bitcoin?
                 li
-                  a(href='') Esportes
+                  a(href='/#beta') Solicitar Acesso BETA
                 li
-                  a(href='') Regras
-                li
-                  a(href='') FAQ
-                li
-                  a(href='') Ajuda
+                  a(href='/contact') Contato
                 //li.dropdown
                 //  .dropdown-active
                 //    .dropdown-active__icon
@@ -92,9 +88,9 @@ html(lang='en')
               div
                 ul.banner__list
                   li
-                    a(href='').btn.btn--lrg.btn--white COMO FUNCIONA?
+                    a(href='/#works').btn.btn--lrg.btn--white COMO FUNCIONA?
                   li
-                    a(href='').btn.btn--lrg.btn--blue SOLICITAR ACESSO BETA
+                    a(href='/#beta').btn.btn--lrg.btn--blue SOLICITAR ACESSO BETA
 
     != yield
 
@@ -103,24 +99,24 @@ html(lang='en')
         ul.foot-nav
           li
             foot-copy Bitkup &copy; 2013 - 2015
-          li
-            a(href="") Termos de Uso
-          li
-            a(href="") Política de Privacidade
+          //li
+          //  a(href="") Termos de Uso
+          //li
+          //  a(href="") Política de Privacidade
           li
             a(href="") Imprensa
-          li
-            a(href="") Ajude na tradução
+          //li
+          //  a(href="") Ajude na tradução
           li
             a(href="") 100% Open-Source
 
         ul.foot-social
           li
-            a(href='')
+            a(href='https://twitter.com/bitkup')
               i.mdi.mdi-twitter
           li
-            a(href='')
+            a(href='https://www.facebook.com/bitkup')
               i.mdi.mdi-facebook
           li
-            a(href='')
-              i.mdi.mdi-google-plus
+            a(href='http://www.reddit.com/r/bitkup/')
+              i.mdi.mdi-reddit
