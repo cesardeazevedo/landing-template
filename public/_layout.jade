@@ -33,10 +33,12 @@ html(lang='pt-br')
     script(src="components/jquery/dist/jquery.min.js")
     script(src='components/owl-carousel2/dist/owl.carousel.js')
     script(src="assets/script/carousel.js")
+    script(src="assets/script/dots.js")
 
     title Bitkup
   body
     header.head
+      canvas(id="back" style="width:100%;height:100%;position:absolute;top:0px;opacity:1")
       .head__bg
         .wrapper
           .head__row
