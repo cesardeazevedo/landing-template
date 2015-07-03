@@ -3,13 +3,17 @@
   text-align: center
 
 .feature__row
+  display: flex
+  flex-direction: column
   +media-query(desk)
-    display: table
+    flex-direction: row
+    // reverse it
+    // flex-direction: row-reverse
 
 .feature__cell
-  +media-query(desk)
-    display: table-cell
-    width: 25%
+  display: flex
+  width: 100%
+  justify-content: center;
 
 .feature-item__title
   font-size: 18px
