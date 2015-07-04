@@ -30,6 +30,332 @@
                 "name": "assets/img/news/bmz.png",
                 "url": "https://bitcoinmagazine.com/13765/brazil-world-cup-gets-unique-bitcoin-bookies/"
             }
+        },
+        "worldcup": {
+            "free": {
+                "1": {
+                    "position": "1",
+                    "name": "touchsky",
+                    "points": "61",
+                    "gh": "0",
+                    "rh": "6",
+                    "win": true
+                },
+                "2": {
+                    "position": "2",
+                    "name": "vallades",
+                    "points": "58",
+                    "gh": "3",
+                    "rh": "5",
+                    "win": true
+                },
+                "3": {
+                    "position": "3",
+                    "name": "font-fan",
+                    "points": "57",
+                    "gh": "3",
+                    "rh": "2",
+                    "win": true
+                },
+                "4": {
+                    "position": "4",
+                    "name": "sasanjogi",
+                    "points": "56",
+                    "gh": "1",
+                    "rh": "1",
+                    "win": true
+                },
+                "5": {
+                    "position": "5",
+                    "name": "ooshkhan",
+                    "points": "55",
+                    "gh": "4",
+                    "rh": "3",
+                    "win": false
+                },
+                "6": {
+                    "position": "6",
+                    "name": "webokcv",
+                    "points": "55",
+                    "gh": "2",
+                    "rh": "3",
+                    "win": true
+                },
+                "7": {
+                    "position": "7",
+                    "name": "gr8cape",
+                    "points": "53",
+                    "gh": "3",
+                    "rh": "2",
+                    "win": false
+                },
+                "8": {
+                    "position": "8",
+                    "name": "hadi2365",
+                    "points": "53",
+                    "gh": "1",
+                    "rh": "4",
+                    "win": true
+                },
+                "9": {
+                    "position": "9",
+                    "name": "yoda",
+                    "points": "53",
+                    "gh": "0",
+                    "rh": "5",
+                    "win": true
+                },
+                "10": {
+                    "position": "10",
+                    "name": "adamr",
+                    "points": "52",
+                    "gh": "3",
+                    "rh": "4",
+                    "win": true
+                },
+                "11": {
+                    "position": "11",
+                    "name": "torombolo74",
+                    "points": "51",
+                    "gh": "2",
+                    "rh": "6",
+                    "win": false
+                },
+                "12": {
+                    "position": "12",
+                    "name": "marcind",
+                    "points": "50",
+                    "gh": "1",
+                    "rh": "6",
+                    "win": true
+                },
+                "13": {
+                    "position": "13",
+                    "name": "Shizol",
+                    "points": "50",
+                    "gh": "1",
+                    "rh": "5",
+                    "win": true
+                },
+                "14": {
+                    "position": "14",
+                    "name": "adasioo",
+                    "points": "48",
+                    "gh": "3",
+                    "rh": "1",
+                    "win": false
+                },
+                "15": {
+                    "position": "15",
+                    "name": "fgasparoto",
+                    "points": "48",
+                    "gh": "2",
+                    "rh": "3",
+                    "win": false
+                },
+                "16": {
+                    "position": "16",
+                    "name": "andrij",
+                    "points": "48",
+                    "gh": "0",
+                    "rh": "4",
+                    "win": true
+                },
+                "17": {
+                    "position": "17",
+                    "name": "vespella",
+                    "points": "46",
+                    "gh": "1",
+                    "rh": "1",
+                    "win": false
+                },
+                "18": {
+                    "position": "18",
+                    "name": "He man",
+                    "points": "46",
+                    "gh": "1",
+                    "rh": "1",
+                    "win": false
+                },
+                "19": {
+                    "position": "19",
+                    "name": "Ilopat",
+                    "points": "45",
+                    "gh": "3",
+                    "rh": "6",
+                    "win": false
+                },
+                "20": {
+                    "position": "20",
+                    "name": "Fowler",
+                    "points": "45",
+                    "gh": "3",
+                    "rh": "3",
+                    "win": false
+                }
+            },
+            "pro": {
+                "1": {
+                    "position": "1",
+                    "name": "cikko86",
+                    "points": "66",
+                    "gh": "3",
+                    "rh": "7",
+                    "win": true
+                },
+                "2": {
+                    "position": "2",
+                    "name": "Xlab",
+                    "points": "65",
+                    "gh": "3",
+                    "rh": "4",
+                    "win": true
+                },
+                "3": {
+                    "position": "3",
+                    "name": "luiz.mosca",
+                    "points": "61",
+                    "gh": "3",
+                    "rh": "2",
+                    "win": true
+                },
+                "4": {
+                    "position": "4",
+                    "name": "Love_Football",
+                    "points": "59",
+                    "gh": "1",
+                    "rh": "5",
+                    "win": true
+                },
+                "5": {
+                    "position": "5",
+                    "name": "robotf8ce",
+                    "points": "57",
+                    "gh": "1",
+                    "rh": "5",
+                    "win": true
+                },
+                "6": {
+                    "position": "6",
+                    "name": "Andrew T.",
+                    "points": "57",
+                    "gh": "1",
+                    "rh": "4",
+                    "win": false
+                },
+                "7": {
+                    "position": "7",
+                    "name": "Sesma86",
+                    "points": "54",
+                    "gh": "2",
+                    "rh": "2",
+                    "win": false
+                },
+                "8": {
+                    "position": "8",
+                    "name": "luizvidoto",
+                    "points": "54",
+                    "gh": "1",
+                    "rh": "6",
+                    "win": true
+                },
+                "9": {
+                    "position": "9",
+                    "name": "HeavyWallet",
+                    "points": "53",
+                    "gh": "4",
+                    "rh": "4",
+                    "win": false
+                },
+                "10": {
+                    "position": "10",
+                    "name": "kyuzo",
+                    "points": "53",
+                    "gh": "4",
+                    "rh": "3",
+                    "win": false
+                },
+                "11": {
+                    "position": "11",
+                    "name": "dsarango",
+                    "points": "53",
+                    "gh": "2",
+                    "rh": "6",
+                    "win": false
+                },
+                "12": {
+                    "position": "12",
+                    "name": "Mr. Magoo",
+                    "points": "53",
+                    "gh": "2",
+                    "rh": "4",
+                    "win": false
+                },
+                "13": {
+                    "position": "13",
+                    "name": "Seymour",
+                    "points": "53",
+                    "gh": "1",
+                    "rh": "6",
+                    "win": true
+                },
+                "14": {
+                    "position": "14",
+                    "name": "maxxyryo",
+                    "points": "52",
+                    "gh": "5",
+                    "rh": "2",
+                    "win": false
+                },
+                "15": {
+                    "position": "15",
+                    "name": "antistic",
+                    "points": "52",
+                    "gh": "3",
+                    "rh": "5",
+                    "win": false
+                },
+                "16": {
+                    "position": "16",
+                    "name": "edvanjr",
+                    "points": "52",
+                    "gh": "2",
+                    "rh": "5",
+                    "win": false
+                },
+                "17": {
+                    "position": "17",
+                    "name": "paulohenrique000",
+                    "points": "51",
+                    "gh": "3",
+                    "rh": "5",
+                    "win": false
+                },
+                "18": {
+                    "position": "18",
+                    "name": "Moeq",
+                    "points": "51",
+                    "gh": "1",
+                    "rh": "5",
+                    "win": true
+                },
+                "19": {
+                    "position": "19",
+                    "name": "BadBoy5502",
+                    "points": "50",
+                    "gh": "2",
+                    "rh": "2",
+                    "win": true
+                },
+                "20": {
+                    "position": "20",
+                    "name": "bitkup",
+                    "points": "49",
+                    "gh": "3",
+                    "rh": "5",
+                    "win": false
+                }
+            }
         }
     },
     "contact": {

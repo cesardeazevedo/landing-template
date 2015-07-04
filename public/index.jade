@@ -85,6 +85,57 @@
             h2.feature-item__title Previsões ao Vivo
             p Altere previsões antes do início dos jogos e acompanhe o andamento ao vivo com a gente.
 
+  #worldcup.worldcup
+   .wrapper
+     h1 WorldCup
+
+     h3 2014 FIFA World Cup Brazil
+     hr
+     .feature__row
+       .feature__cell
+         h3 Free
+       .feature__cell
+         h3 Pro
+
+     .feature__row.space__between
+      table.free
+        tr
+          th #
+          th.left Name
+          th Points
+          th GH*
+          th RH*
+          th W
+        for player in worldcup.free
+          tr
+            td= player.position
+            td.left= player.name
+            td= player.points
+            td= player.gh
+            td= player.gh
+            td
+              if player.win === true
+                i.mdi.mdi-trophy
+      table.pro
+        tr
+          th #
+          th.left Name
+          th Points
+          th GH*
+          th RH*
+          th W
+        for player in worldcup.pro
+          tr
+            td= player.position
+            td.left= player.name
+            td= player.points
+            td= player.gh
+            td= player.gh
+            td
+              if player.win === true
+                i.mdi.mdi-trophy
+
+
   #whatis.whatis
     .wrapper
       h1 O QUE É BITCOIN?
