@@ -34,15 +34,16 @@ html(lang='pt-br')
     script(src='components/owl-carousel2/dist/owl.carousel.js')
     script(src="assets/script/carousel.js")
     script(src="assets/script/dots.js")
+    script(src="assets/script/scroll.js")
 
     title Bitkup
   body
     header.head
       canvas(id="back" style="width:100%;height:100%;position:absolute;top:0px;opacity:1")
       .head__bg
-        .wrapper
-          .head__row
-            .head__cell
+        .head__row
+          .wrapper
+            .head__cell.head__brand
               a.logo(href='/')
                 img(src='assets/img/logo.png')
               a.head-btn(href='')
@@ -60,7 +61,7 @@ html(lang='pt-br')
                             S77.659,0,50.029,0z M50.029,95.078c-24.88,0-45.049-20.169-45.049-45.049S25.149,4.98,50.029,4.98s45.049,20.169,45.049,45.049\
                             S74.909,95.078,50.029,95.078z')
 
-            .head__cell
+            .head__cell.head__right
               ul.head-nav
                 li
                   a(href='/#works') Como Funciona?
@@ -69,7 +70,7 @@ html(lang='pt-br')
                 li
                   a(href='/#whatis') O que é Bitcoin?
                 li
-                  a(href='/#beta') Solicitar Acesso BETA
+                  a(href='/#beta') BETA
                 li
                   a(href='/contact') Contato
                 //li.dropdown
@@ -83,7 +84,8 @@ html(lang='pt-br')
                 //      a(href='/pt-br/') PT-BR
                 //    li
                 //      a(href='/es/') ES
-          if current.source == 'index'
+        if current.source == 'index'
+          .wrapper
             .banner
               h1.banner__title A BITKUP É UM GAME DE PREVISÕES ESPORTIVAS COM BITCOIN
               p.banner__subtitle Tente a sorte prevendo o resultado de algum evento e dispute quantidades <strong>INSANAS</strong> de bitcoin.
