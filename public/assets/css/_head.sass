@@ -14,11 +14,12 @@
   position: fixed
   margin-bottom: 50px
   z-index: 1000
+  transition: all 0.3s ease
   +media-query(desk)
     display: table
     width: 100%
     top: 0px
-    border: 1px solid rgba(255, 255, 255, 0.2)
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2)
 
 .head__alt
   background: rgba(69, 172, 108, 0.95)
@@ -40,9 +41,9 @@
 .head__brand
   float: left
   padding-top: 30px
-  -webkit-transition: padding 0.3s linear
-  -o-transition: padding 0.3s linear
-  transition: padding 0.3s linear
+  -webkit-transition: padding 0.3s ease
+  -o-transition: padding 0.3s ease
+  transition: padding 0.3s ease
 
 .head__right
   float: right

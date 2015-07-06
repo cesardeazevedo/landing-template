@@ -7,16 +7,157 @@
 .btn--lrg
   padding: 16px 24px
 
-.btn--white
-  background: #fff
-  border-color: #ccc
-  color: #666
-  &:hover
-    background: darken(#fff, 6%)
+/* Common button styles
 
-.btn--blue
-  background: #113e7a
-  border-color: #113e7a
+/* Box colors
+
+.bg-1
+  background: #ECEFF1
+  color: #37474f
+
+.bg-2
+  background: #7986cb
+  color: #ECEFF1
+
+.bg-3
+  background: #37474f
   color: #fff
+
+.button
+  float: left
+  min-width: 150px
+  display: block
+  margin: 1em
+  padding: 1em 2em
+  border: none
+  background: none
+  color: inherit
+  vertical-align: middle
+  position: relative
+  z-index: 1
+  -webkit-backface-visibility: hidden
+  -moz-osx-font-smoothing: grayscale
+  &:focus
+    outline: none
+  > span
+    vertical-align: middle
+
+/* Text color adjustments (we could stick to the "inherit" but that does not work well in Safari)
+
+.bg-1 .button
+  color: #37474f
+  border-color: #37474f
+
+.bg-2 .button
+  color: #ECEFF1
+  border-color: #ECEFF1
+
+.bg-3 .button
+  color: #fff
+  border-color: #fff
+
+
+/* Sizes
+
+.button--size-s
+  font-size: 14px
+
+.button--size-m
+  font-size: 16px
+
+.button--size-l
+  font-size: 18px
+  width: 320px
+
+/* Typography and Roundedness
+
+.button--text-upper
+  letter-spacing: 0.5px
+  text-transform: uppercase
+
+.button--text-thin
+  font-weight: 300
+
+.button--text-medium
+  font-weight: 500
+
+.button--text-thick
+  font-weight: 600
+
+.button--round-s
+  border-radius: 4px
+
+.button--round-m
+  border-radius: 15px
+
+.button--round-l
+  border-radius: 40px
+
+
+
+/* Antiman
+
+.button--antiman
+  background: none
+  border: none
+  height: 60px
+  &.button--inverted, &.button--inverted-alt
+    -webkit-transition: color 0.3s
+    transition: color 0.3s
+    -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1)
+    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1)
+  > span
+    padding-left: 0.35em
+  &::before, &::after
+    content: ''
+    z-index: -1
+    border-radius: inherit
+    pointer-events: none
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    -webkit-backface-visibility: hidden
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s
+    transition: transform 0.3s, opacity 0.3s
+    -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1)
+    transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1)
+  &::before
+    border: 2px solid #37474f
+    opacity: 0
+    -webkit-transform: scale3d(1.2, 1.2, 1)
+    transform: scale3d(1.2, 1.2, 1)
+  &.button--border-thin::before
+    border-width: 1px
+  &.button--border-medium::before
+    border-width: 2px
+  &.button--border-thick::before
+    border-width: 3px
+  &.button--inverted::before
+    border-color: #42AB6A
+  &.button--inverted-alt::before
+    border-color: #42AB6A
+  &::after
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  &.button--inverted::after
+    background: #7986cb
+  &.button--inverted-alt.button--primary::after
+    background: #42AB6A
+    border:none
+  &.button--inverted:hover
+    color: white
+    background-color: rgba(0, 0, 0, 0.2)
+  &.button--inverted-alt:hover
+    color: white
+    background: rgba(0, 0, 0, 0.3);
   &:hover
-    background: darken(#113e7a, 4%)
+    &::before
+      opacity: 1
+      -webkit-transform: scale3d(1, 1, 1)
+      transform: scale3d(1, 1, 1)
+    &::after
+      opacity: 0
+      -webkit-transform: scale3d(0.8, 0.8, 1)
+      transform: scale3d(0.8, 0.8, 1)
