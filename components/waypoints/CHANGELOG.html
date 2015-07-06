@@ -1,0 +1,115 @@
+<!DOCTYPE html><html lang="pt-br"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content=""><meta name="author" content=""><meta name="revisit-after" content="5 days"><meta property="og:locate" content=""><meta property="og:title" content=""><meta property="og:site_name" content=""><meta property="og:url" content=""><meta property="og:image" content=""><meta property="og:type" content="website"><meta property="og:description" content=""><meta name="twitter:card" content="summary"><meta name="twitter:title" content=""><meta name="twitter:description" content=""><meta name="twitter:image" content=""><meta name="twitter:site" content=""><link rel="stylesheet" href="assets/css/style.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700"><link rel="stylesheet" href="components/mdi/css/materialdesignicons.min.css" media="all"><link rel="stylesheet" href="components/owl-carousel2/dist/assets/owl.carousel.css"><link rel="stylesheet" href="components/owl-carousel2/dist/assets/owl.theme.default.css"><link rel="stylesheet" href="components/animate.css/animate.min.css"><link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><link rel="icon" href="favicon.ico" type="image/x-icon"><script src="components/jquery/dist/jquery.min.js"></script><script src="components/owl-carousel2/dist/owl.carousel.js"></script><script src="components/waypoints/lib/jquery.waypoints.min.js"></script><script src="assets/script/carousel.js"></script><script src="components/jquery.easing/js/jquery.easing.min.js"></script><script src="components/jquery.scrollTo/jquery.scrollTo.min.js"></script><script src="assets/script/dots.js"></script><script src="assets/script/scroll.js"></script><script src="assets/script/input.js"></script><script src="assets/script/points.js"></script><title>Bitkup</title></head><body><header class="head"><canvas id="back" style="width:100%;height:100%;position:absolute;top:0px;opacity:1"></canvas><div class="head__bg"><div class="head__row"><div class="wrapper"><div class="head__cell head__brand"><a href="/" class="logo"><img src="assets/img/logo.png"></a><a href="" class="head-btn"><svg id="Layer_1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px" viewbox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve" class="head-btn__open"><g><path fill="#ffffff" d="M75.157,32.733c0,1.398-1.133,2.532-2.532,2.532H27.433c-1.398,0-2.532-1.133-2.532-2.532l0,0                        c0-1.398,1.133-2.532,2.532-2.532h45.192C74.023,30.202,75.157,31.335,75.157,32.733L75.157,32.733z"></path><path fill="#ffffff" d="M75.157,49.084c0,1.398-1.133,2.532-2.532,2.532H27.433c-1.398,0-2.532-1.133-2.532-2.532l0,0                        c0-1.398,1.133-2.532,2.532-2.532h45.192C74.023,46.552,75.157,47.686,75.157,49.084L75.157,49.084z"></path><path fill="#ffffff" d="M75.157,65.434c0,1.398-1.133,2.532-2.532,2.532H27.433c-1.398,0-2.532-1.133-2.532-2.532l0,0                        c0-1.398,1.133-2.532,2.532-2.532h45.192C74.023,62.903,75.157,64.036,75.157,65.434L75.157,65.434z"></path><g><g><path fill="#ffffff" d="M50.029,0C22.399,0,0,22.399,0,50.029s22.399,50.029,50.029,50.029s50.029-22.399,50.029-50.029                            S77.659,0,50.029,0z M50.029,95.078c-24.88,0-45.049-20.169-45.049-45.049S25.149,4.98,50.029,4.98s45.049,20.169,45.049,45.049                            S74.909,95.078,50.029,95.078z"></path></g></g></g></svg></a></div><div class="head__cell head__right"><ul class="head-nav"><li><span class="btn--works">Como Funciona?</span></li><li><span class="btn--platform">Nossa Plataforma</span></li><li><span class="btn--worldcup">Copa do Mundo</span></li><li><span class="btn--whatis">O que é Bitcoin?</span></li><li><span class="btn--beta">BETA</span></li><li><a href="/contact">Contato</a></li><!--li.dropdown--><!--  .dropdown-active--><!--    .dropdown-active__icon--><!--    .dropdown-active__text Language--><!--  ul.dropdown__body--><!--    li--><!--      a(href='/') EN--><!--    li--><!--      a(href='/pt-br/') PT-BR--><!--    li--><!--      a(href='/es/') ES--></ul></div></div></div></div></header><h1>Changelog</h1><h2>v3.1.1</h2><ul>
+<li>Fix bad <code>isWindow</code> checks causing errors in IE8-. (Issue #372)</li>
+</ul>
+<h2>v3.1.0</h2><ul>
+<li>Add <code>Waypoint.disableAll</code> and <code>Waypoint.enableAll</code> methods.</li>
+<li>Fix Illegal Invocation errors stemming from non-window context use of <code>requestAnimationFrame</code>. (Pull #366)</li>
+<li>Keep disabled waypoints from triggering debug script errors. (Pull #365)</li>
+<li>Allow Infinite Scroll items to be root elements in the AJAX response. (Pull #361)</li>
+<li>In debug script, detect display none and fixed positioning defined in CSS.</li>
+</ul>
+<h2>v3.0.1</h2><ul>
+<li>Add semicolons to the end of built files to aid in clean concatenation. (Issue #353)</li>
+</ul>
+<h2>v3.0.0</h2><ul>
+<li>Remove hard jQuery dependency. Create builds for jQuery, Zepto, and no DOM framework. (Issue #282)</li>
+<li>Expose <code>Waypoint</code> and <code>Context</code> classes. (Issue #281)</li>
+<li>Add <code>Group</code> class and <code>group</code> option for grouping waypoints. Make <code>continuous</code> option work within these groups. (Issue #264)</li>
+<li>Add Inview shortcut. (Issue #131)</li>
+<li>Extend <code>continuous</code> option to cover refreshes. (Issue #166)</li>
+<li>Throttle resize and scroll handlers using <code>requestAnimationFrame</code> instead of a set millisecond timeout. Fallback to the old 60 FPS <code>setTimeout</code> throttle for unsupported browsers. (Issue #242)</li>
+<li>Add debugging script for diagnosing common problems.</li>
+<li>Remove <code>triggerOnce</code> option.</li>
+<li>Add <code>viewportWidth</code> utility method.</li>
+<li>Remove all traces of CoffeeScript.</li>
+</ul>
+<h2>v2.0.5</h2><ul>
+<li>Allow sticky users to define which direction the stuck class shold be applied. (Issue #192)</li>
+<li>Fix bug where short content on a large screen could cause the infinite shortcut to stall after the first page load. (Issue #207)</li>
+<li>Make <code>unsticky</code> safe to use on any element. Previously it would unwrap the parent even if the element had never had <code>sticky</code> called on it or already had <code>unsticky</code> called previously. (Issue #225)</li>
+<li>Fix bug that would cause handlers to be overwritten when trying to reuse an options object. (Issue #253)</li>
+<li>Remove &quot;More&quot; link when infinite shortcut reaches last page. (Issue #260)</li>
+<li>Fix use of <code>this</code> instead of <code>window</code>, causing Browserify to fail. (Issue #262)</li>
+<li>Stop using deprecated jQuery <code>load</code> method. (Issue #283)</li>
+</ul>
+<h2>v2.0.4</h2><ul>
+<li>Fix enable, disable, and destroys calls not chaining the jQuery object. (Issue #244) (Thanks <a href="https://github.com/robharper">@robharper</a>)</li>
+<li>Fix destroy not unregistering internal waypoint references if underlying node has been removed from the document, causing memory leaks. (Issue #243)</li>
+</ul>
+<h2>v2.0.3</h2><ul>
+<li>Add &quot;unsticky&quot; function for sticky shortcut. (Issue #130)</li>
+<li>Exit early from Infinite shortcut if no &quot;more&quot; link exists. (Issue #140)</li>
+<li>Delay height evaluation of sticky shortcut wrapper. (Issue #151)</li>
+<li>Fix errors with Infinite shortcut&#39;s parsing of HTML with jQuery 1.9+. (Issue #163)</li>
+</ul>
+<h2>v2.0.2</h2><ul>
+<li>Add AMD support. (Issue #116)</li>
+<li>Work around iOS issue with cancelled <code>setTimeout</code> timers by not using scroll throttling on touch devices. (Issue #120)</li>
+<li>If defined, execute <code>handler</code> option passed to sticky shortcut at the end of the stuck/unstuck change. (Issue #123)</li>
+</ul>
+<h2>v2.0.1</h2><ul>
+<li>Lower default throttle values for <code>scrollThrottle</code> and <code>resizeThrottle</code>.</li>
+<li>Fix Issue #104: Pixel offsets written as strings are interpreted as %s.</li>
+<li>Fix Issue #100: Work around IE not firing scroll event on document shortening by forcing a scroll check on <code>refresh</code> calls.</li>
+</ul>
+<h2>v2.0.0</h2><ul>
+<li>Rewrite Waypoints in CoffeeScript.</li>
+<li>Add Sticky and Infinite shortcut scripts.</li>
+<li>Allow multiple Waypoints on each element. (Issue #40)</li>
+<li>Allow horizontal scrolling Waypoints. (Issue #14)</li>
+<li>API additions: (#69, 83, 88)<ul>
+<li>prev, next, above, below, left, right, extendFn, enable, disable</li>
+</ul>
+</li>
+<li>API subtractions:<ul>
+<li>remove</li>
+</ul>
+</li>
+<li>Remove custom &#39;waypoint.reached&#39; jQuery Event from powering the trigger.</li>
+<li>$.waypoints now returns object with vertical+horizontal properties and HTMLElement arrays instead of jQuery object (to preserve trigger order instead of jQuery&#39;s forced source order).</li>
+<li>Add enabled option.</li>
+</ul>
+<h2>v1.1.7</h2><ul>
+<li>Actually fix the post-load bug in Issue #28 from v1.1.3.</li>
+</ul>
+<h2>v1.1.6</h2><ul>
+<li>Fix potential memory leak by unbinding events on empty context elements.</li>
+</ul>
+<h2>v1.1.5</h2><ul>
+<li>Make plugin compatible with Browserify/RequireJS. (Thanks <a href="https://github.com/cjroebuck">@cjroebuck</a>)</li>
+</ul>
+<h2>v1.1.4</h2><ul>
+<li>Add handler option to give alternate binding method.</li>
+</ul>
+<h2>v1.1.3</h2><ul>
+<li>Fix cases where waypoints are added post-load and should be triggered immediately.</li>
+</ul>
+<h2>v1.1.2</h2><ul>
+<li>Fixed error thrown by waypoints with triggerOnce option that were triggered via resize refresh.</li>
+</ul>
+<h2>v1.1.1</h2><ul>
+<li>Fixed bug in initialization where all offsets were being calculated as if set to 0 initially, causing unwarranted triggers during the subsequent refresh.</li>
+<li>Added <code>onlyOnScroll</code>, an option for individual waypoints that disables triggers due to an offset refresh that crosses the current scroll point. (All credit to <a href="https://github.com/knuton">@knuton</a> on this one.)</li>
+</ul>
+<h2>v1.1</h2><ul>
+<li>Moved the continuous option out of global settings and into the options
+object for individual waypoints.</li>
+<li>Added the context option, which allows for using waypoints within any
+scrollable element, not just the window.</li>
+</ul>
+<h2>v1.0.2</h2><ul>
+<li>Moved scroll and resize handler bindings out of load.  Should play nicer with async loaders like Head JS and LABjs.</li>
+<li>Fixed a 1px off error when using certain % offsets.</li>
+<li>Added unit tests.</li>
+</ul>
+<h2>v1.0.1</h2><ul>
+<li>Added $.waypoints(&#39;viewportHeight&#39;).</li>
+<li>Fixed iOS bug (using the new viewportHeight method).</li>
+<li>Added offset function alias: &#39;bottom-in-view&#39;.</li>
+</ul>
+<h2>v1.0</h2><ul>
+<li>Initial release.</li>
+</ul><span class="divider divider--light btn--home"><i class="mdi mdi-chevron-up"></i></span><footer class="foot"><div class="wrapper"><ul class="foot-nav"><li><foot-copy>&copy; 2013 - 2015 bitkup.com | Previsões esportivas com Bitcoin - Alguns direitos reservados.</foot-copy></li><!--li--><!--  a(href="") Termos de Uso--><!--li--><!--  a(href="") Política de Privacidade--><li><a href="">Imprensa</a></li><!--li--><!--  a(href="") Ajude na tradução--></ul><p>Bitcoin é o único método de pagamento utilizado em nossa plataforma.
+Nós não somos uma casa de câmbio, não trocamos Bitcoin por qualquer outra coisa que não seja pontos na plataforma.
+Basta navegar em nosso site que você está expressamente concordando com os
+<a href="#">Termos de Uso</a> e de <a href="#">Serviço.</a></p><ul class="foot-social"><li><a href="https://twitter.com/bitkup"><i class="mdi mdi-twitter"></i></a></li><li><a href="https://www.facebook.com/bitkup"><i class="mdi mdi-facebook"></i></a></li><li><a href="https://plus.google.com"><i class="mdi mdi-google-plus"></i></a></li><li><a href="http://www.reddit.com/r/bitkup/"><i class="mdi mdi-reddit"></i></a></li></ul></div></footer></body></html>
