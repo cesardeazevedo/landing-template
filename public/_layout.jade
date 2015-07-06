@@ -26,16 +26,21 @@ html(lang='pt-br')
     link(rel='stylesheet' href='components/mdi/css/materialdesignicons.min.css' media='all')
     link(rel='stylesheet' href='components/owl-carousel2/dist/assets/owl.carousel.css')
     link(rel='stylesheet' href='components/owl-carousel2/dist/assets/owl.theme.default.css')
+    link(rel='stylesheet' href='components/animate.css/animate.min.css')
 
     link(rel='shortcut icon' href='favicon.ico' type='image/x-icon')
     link(rel='icon' href='favicon.ico' type='image/x-icon')
 
     script(src="components/jquery/dist/jquery.min.js")
     script(src='components/owl-carousel2/dist/owl.carousel.js')
+    script(src="components/waypoints/lib/jquery.waypoints.min.js")
     script(src="assets/script/carousel.js")
+    script(src="components/jquery.easing/js/jquery.easing.min.js")
+    script(src="components/jquery.scrollTo/jquery.scrollTo.min.js")
     script(src="assets/script/dots.js")
     script(src="assets/script/scroll.js")
     script(src="assets/script/input.js")
+    script(src="assets/script/points.js")
 
     title Bitkup
   body
@@ -65,13 +70,15 @@ html(lang='pt-br')
             .head__cell.head__right
               ul.head-nav
                 li
-                  a(href='/#works') Como Funciona?
+                  span.btn--works Como Funciona?
                 li
-                  a(href='/#platform') Nossa Plataforma
+                  span.btn--platform Nossa Plataforma
                 li
-                  a(href='/#whatis') O que é Bitcoin?
+                  span.btn--worldcup Copa do Mundo
                 li
-                  a(href='/#beta') BETA
+                  span.btn--whatis O que é Bitcoin?
+                li
+                  span.btn--beta BETA
                 li
                   a(href='/contact') Contato
                 //li.dropdown
@@ -94,15 +101,17 @@ html(lang='pt-br')
                 ul.banner__list
                   li
                     //- a(href='/#works').btn.btn--lrg.btn--white COMO FUNCIONA?
-                    button.button.button--antiman.button--primary.button--text-thick.button--text-upper.button--size-m.button--inverted-alt.button--round-s.button--border-thick
+                    button.button.button--antiman.button--primary.button--text-thick.button--text-upper.button--size-m.button--inverted-alt.button--round-s.button--border-thick.btn--works
                       span COMO FUNCIONA
                   li
-                    button.button.button--antiman.button--text-thick.button--text-upper.button--size-m.button--inverted-alt.button--round-s.button--border-thick
+                    button.button.button--antiman.button--text-thick.button--text-upper.button--size-m.button--inverted-alt.button--round-s.button--border-thick.btn--beta
                       span SOLICITAR ACESSO v2.0
                     //- a(href='/#beta').btn.btn--lrg.btn--blue SOLICITAR ACESSO v2.0
 
     != yield
 
+    span.divider.divider--light.btn--home
+      i.mdi.mdi-chevron-up
     footer.foot
       .wrapper
         ul.foot-nav
