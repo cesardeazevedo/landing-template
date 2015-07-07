@@ -39,6 +39,7 @@
                     "points": "61",
                     "gh": "0",
                     "rh": "6",
+                    "link": "https://blockchain.info/en/tx/da759854a6c711d22a03f9f5968dddaa03f5e9f7208154d2c3fdeeca651f7663",
                     "win": true
                 },
                 "2": {
@@ -47,6 +48,7 @@
                     "points": "58",
                     "gh": "3",
                     "rh": "5",
+                    "link": "https://blockchain.info/es/tx/69a3f137a07ab9aee550c4179b64a0fe4581dc3ee2efe52225cd16b99e7be473",
                     "win": true
                 },
                 "3": {
@@ -201,6 +203,7 @@
                     "points": "66",
                     "gh": "3",
                     "rh": "7",
+                    "link": "https://blockchain.info/en/tx/c2b62270a13504d5e5bad19dc9fe7e31e9a198f9d5b1aadd1eedafe8d84af9ee",
                     "win": true
                 },
                 "2": {
@@ -209,6 +212,7 @@
                     "points": "65",
                     "gh": "3",
                     "rh": "4",
+                    "link": "https://blockchain.info/en/tx/0bd4126c06237ac49b728aa139af3a168a7259fe05714c775fb7fafbd06a4fca",
                     "win": true
                 },
                 "3": {
@@ -217,6 +221,7 @@
                     "points": "61",
                     "gh": "3",
                     "rh": "2",
+                    "link": "https://blockchain.info/en/tx/52a3ae2dae90d6e46d3dd3cd0b8ec75117cfc3cf4aa82e0bd2a6d2d7aaec1217",
                     "win": true
                 },
                 "4": {
@@ -225,6 +230,7 @@
                     "points": "59",
                     "gh": "1",
                     "rh": "5",
+                    "link": "https://blockchain.info/en/tx/5448954f4ba74f1ea9079038771402976bfa84d4c7d933d3f900efdb7494e9e9",
                     "win": true
                 },
                 "5": {
@@ -233,6 +239,7 @@
                     "points": "57",
                     "gh": "1",
                     "rh": "5",
+                    "link": "https://blockchain.info/en/tx/6c1ce214a505bcc4e1565549f899bc34ef4333e5fda6402d83a7a9574a726028",
                     "win": true
                 },
                 "6": {
@@ -241,6 +248,7 @@
                     "points": "57",
                     "gh": "1",
                     "rh": "4",
+                    "link": "https://blockchain.info/en/tx/3e2a9cebb5919c308c0bdba42fffd74fc08b8e8b612140c8691c7a69b81c7738",
                     "win": false
                 },
                 "7": {
@@ -249,6 +257,7 @@
                     "points": "54",
                     "gh": "2",
                     "rh": "2",
+                    "link": "https://blockchain.info/en/tx/a3a0930ac6e36d817066997669cddf7088ca5443e3d4ed8efc3ac3bac3fef804",
                     "win": false
                 },
                 "8": {
@@ -257,6 +266,7 @@
                     "points": "54",
                     "gh": "1",
                     "rh": "6",
+                    "link": "https://blockchain.info/en/tx/135360527b5ccd40baad5491613786cebc1eae551db5bb01fe87c1edfe487430",
                     "win": true
                 },
                 "9": {
@@ -265,6 +275,7 @@
                     "points": "53",
                     "gh": "4",
                     "rh": "4",
+                    "link": "https://blockchain.info/en/tx/bf7969717a1c6d2673dda08a03801827bfcbdecb084b50a0d3152fad69e940e7",
                     "win": false
                 },
                 "10": {
@@ -273,6 +284,7 @@
                     "points": "53",
                     "gh": "4",
                     "rh": "3",
+                    "link": "https://blockchain.info/en/tx/37c4513cd53ec26586d822ec25157c023f18f7d11e9f3e57c33bf49e9351a68f",
                     "win": false
                 },
                 "11": {
@@ -281,6 +293,7 @@
                     "points": "53",
                     "gh": "2",
                     "rh": "6",
+                    "link": "https://blockchain.info/en/tx/c0c4eee5098bd1d4b9d9cc5ad1cf827e5305449f69844dfa9a98ef15470e4483",
                     "win": false
                 },
                 "12": {
@@ -289,6 +302,7 @@
                     "points": "53",
                     "gh": "2",
                     "rh": "4",
+                    "link": "https://blockchain.info/en/tx/da4d67ff3d7d627d55f354c961e0f7a17a289436b36132d88051ad0e8d298f9f",
                     "win": false
                 },
                 "13": {
@@ -297,6 +311,7 @@
                     "points": "53",
                     "gh": "1",
                     "rh": "6",
+                    "link": "https://blockchain.info/en/tx/b9b08221db75d0c1b2dd37cb789af853613586bf5079d63ebdd5eefd40799cf0",
                     "win": true
                 },
                 "14": {
@@ -305,6 +320,7 @@
                     "points": "52",
                     "gh": "5",
                     "rh": "2",
+                    "link": "https://blockchain.info/en/tx/7f5ac35701462d069dfaa0be0fc3256ca903177381e64f5b6494919e31960f87",
                     "win": false
                 },
                 "15": {
@@ -313,6 +329,7 @@
                     "points": "52",
                     "gh": "3",
                     "rh": "5",
+                    "link": "https://blockchain.info/en/tx/364957342937f1ba5beb945d48deb791f9f82765ffa5e0a2ace7c35ef8808080",
                     "win": false
                 },
                 "16": {
@@ -321,6 +338,7 @@
                     "points": "52",
                     "gh": "2",
                     "rh": "5",
+                    "link": "https://blockchain.info/en/tx/f258de08871d16116c8d123edb089b3577e55977aff1afa8776fe07511ba31d4",
                     "win": false
                 },
                 "17": {
@@ -329,6 +347,7 @@
                     "points": "51",
                     "gh": "3",
                     "rh": "5",
+                    "link": "https://blockchain.info/en/tx/7b89726253e4bf23a8ea01cd930a0e81d6440bfefd3c21ad9ab6c2a6b8663de5",
                     "win": false
                 },
                 "18": {
@@ -337,6 +356,7 @@
                     "points": "51",
                     "gh": "1",
                     "rh": "5",
+                    "link": "https://blockchain.info/en/tx/c9a4223056264feda818b6fbe26a802b2d86d07ff536a6f292401939ed0b7c15",
                     "win": true
                 },
                 "19": {
@@ -345,14 +365,16 @@
                     "points": "50",
                     "gh": "2",
                     "rh": "2",
+                    "link": "https://blockchain.info/en/tx/fe424273a4ea8641e6c2e88c002d6af6a3fc56478bf9e67c3c3d9138c82701d3",
                     "win": true
                 },
                 "20": {
                     "position": "20",
-                    "name": "bitkup",
+                    "name": "hikup",
                     "points": "49",
                     "gh": "3",
                     "rh": "5",
+                    "link": "https://blockchain.info/en/tx/8a9667a1357e2a73cce4d1e65d78c2d4a280600a3254429c24a72e7b3123e964",
                     "win": false
                 }
             }

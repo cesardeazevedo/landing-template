@@ -33,7 +33,7 @@
 
     .wrapper
       h1 NOSSA PLATAFORMA
-      h4 A Bitkup é uma nova e excitante alternativa para o entretenimento esportivo.
+      h4 A bitkup é uma nova e excitante alternativa para o entretenimento esportivo.
       p Utilizamos a tecnologia do Bitcoin e sua rede para garantir total transparência e interoperabilidade em nossas transações, tanto para  recebimento, registro de previsões e pagamento dos prêmios, tudo muito transparente do início ao fim.
       br
       .feature__row
@@ -49,7 +49,7 @@
               .feature-item__title Bitcoin
               hr
               .text
-                | Nós só trabalhamos com Bitcoin, a moeda mais segura do planeta e a que escolhemos para ser o nosso motor financeiro.
+                | Escolhemos a moeda mais segura do planeta para ser o nosso motor financeiro, somos a primeira e única plataforma de previsões esportivas exclusiva em Bitcoin.
         .feature__cell.card
           .feature-item
             .card__front.card__face
@@ -62,7 +62,7 @@
               .feature-item__title Anonimato
               hr
               .text
-                | Ninguém precisa saber quem é você, somos anti-sociais na essência, não iremos jamais iremos compartilhar qualquer informação com terceiros.
+                | Ninguém precisa saber quem é você, nos importamos muito com a sua privacidade, jamais iremos compartilhar quaisquer informação com terceiros.
         .feature__cell.card
           .feature-item
             .card__front.card__face
@@ -150,7 +150,7 @@
    .wrapper
      h1 EVENTOS PASSADOS - COPA DO MUNDO 2014
 
-     p Durante os 50 dias de cobertura do evento recebemos mais de 600.000 visitantes únicos,  arrecadamos para o prêmio final 7.26 BTC’s, valendo U$4,492,34 em 13/7/2014 e aos quais 23 sortudos das Ligas FREE (3) e PRO (20) dividiram essa premiação.
+     p A Copa do Mundo de Futebol realizada em 2014 no Brasil foi o evento escolhido para o lançamento da bitkup, durante os 50 dias de cobertura do evento recebemos mais de 600.000 visitantes únicos de várias nacionalidades, arrecadamos em nosso BITPOT um  <a target="_BLANK" href="https://blockchain.info/address/17CcWnEabTLNmwiSqohXuDJHvAKJo1Hy28">prêmio acumulado de 7.26 BTC’s </a> ou U$4,492,34 no dia 13/7/2014. Os 23 melhores colocados nos ranking's das Ligas FREE (3) e PRO (20) dividiram a premiação.
      hr
      .feature__row
        .feature__cell
@@ -170,7 +170,13 @@
         for player in worldcup.free
           tr
             td= player.position
-            td.left= player.name
+            if !player.link
+              td.left= player.name
+            else
+              td.left
+                a(href="#{ player.link }" title="Blockchain Transaction for #{ player.name }" target="_BLANK")
+                  i.mdi.mdi-link-variant
+                  span= player.name
             td= player.points
             td= player.gh
             td= player.gh
@@ -188,7 +194,10 @@
         for player in worldcup.pro
           tr
             td= player.position
-            td.left= player.name
+            td.left
+              a(href="#{ player.link }" title="Blockchain Transaction for #{ player.name }" target="_BLANK")
+                i.mdi.mdi-link-variant
+                span= player.name
             td= player.points
             td= player.gh
             td= player.gh
