@@ -155,56 +155,54 @@
      .feature__row
        .feature__cell
          h3 Free
+         table.free
+           tr
+             th #
+             th.left Name
+             th Points
+             th GH*
+             th RH*
+             th W
+           for player in worldcup.free
+             tr
+               td= player.position
+               if !player.link
+                 td.left= player.name
+               else
+                 td.left
+                   a(href="#{ player.link }" title="Blockchain Transaction for #{ player.name }" target="_BLANK")
+                     i.mdi.mdi-link-variant
+                     span= player.name
+               td= player.points
+               td= player.gh
+               td= player.gh
+               td
+                 if player.win === true
+                   i.mdi.mdi-trophy
+
        .feature__cell
          h3 Pro
-
-     .feature__row.space__between
-      table.free
-        tr
-          th #
-          th.left Name
-          th Points
-          th GH*
-          th RH*
-          th W
-        for player in worldcup.free
-          tr
-            td= player.position
-            if !player.link
-              td.left= player.name
-            else
-              td.left
-                a(href="#{ player.link }" title="Blockchain Transaction for #{ player.name }" target="_BLANK")
-                  i.mdi.mdi-link-variant
-                  span= player.name
-            td= player.points
-            td= player.gh
-            td= player.gh
-            td
-              if player.win === true
-                i.mdi.mdi-trophy
-      table.pro
-        tr
-          th #
-          th.left Name
-          th Points
-          th GH*
-          th RH*
-          th W
-        for player in worldcup.pro
-          tr
-            td= player.position
-            td.left
-              a(href="#{ player.link }" title="Blockchain Transaction for #{ player.name }" target="_BLANK")
-                i.mdi.mdi-link-variant
-                span= player.name
-            td= player.points
-            td= player.gh
-            td= player.gh
-            td
-              if player.win === true
-                i.mdi.mdi-trophy
-
+         table.pro
+           tr
+             th #
+             th.left Name
+             th Points
+             th GH*
+             th RH*
+             th W
+           for player in worldcup.pro
+             tr
+               td= player.position
+               td.left
+                 a(href="#{ player.link }" title="Blockchain Transaction for #{ player.name }" target="_BLANK")
+                   i.mdi.mdi-link-variant
+                   span= player.name
+               td= player.points
+               td= player.gh
+               td= player.gh
+               td
+                 if player.win === true
+                   i.mdi.mdi-trophy
 
   span.divider.btn--whatis
     i.mdi.mdi-chevron-down
@@ -221,11 +219,11 @@
     .newsletter__bg
       .wrapper
         h1 SOLICITAR ACESSO v2.0
-        form.newsletter-form(method="POST")
+        form.newsletter-form(method="POST" action="https://docs.google.com/forms/d/1VJAcj5lJmze6pnp9BnNAN13-0w35uDX7_DOzP9XRI6g/formResponse")
           span.input.input--kyo
-            input.input__field.input__field--kyo(type="email" id="input" placeholder="Seu Email" required)
+            input.input__field.input__field--kyo(type="email" id="input" name="entry.2026444604" placeholder="Seu Email" required)
             label.input__label.input__label--kyo(for="input")
-              span.input__label-content.input__label-content--kyo 
+              span.input__label-content.input__label-content--kyo
           button.button.button--antiman.button--primary.button--text-thick.button--text-upper.button--size-l.button--inverted-alt.button--round-s.button--border-thick(type="submit")
             span Enviar
 
