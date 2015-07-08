@@ -35,13 +35,15 @@ html(lang='pt-br')
     script(src="components/jquery/dist/jquery.min.js")
     script(src='components/owl-carousel2/dist/owl.carousel.js')
     script(src="components/waypoints/lib/jquery.waypoints.min.js")
-    script(src="assets/script/carousel.js")
     script(src="components/jquery.easing/js/jquery.easing.min.js")
     script(src="components/jquery.scrollTo/jquery.scrollTo.min.js")
-    script(src="assets/script/dots.js")
+    script(src="components/enquire/dist/enquire.js")
+    script(src="components/requirejs/require.js")
+    script(src="assets/script/carousel.js")
     script(src="assets/script/scroll.js")
     script(src="assets/script/input.js")
     script(src="assets/script/points.js")
+    script(src="assets/script/main.js")
 
     title bitkup | Previsões esportivas com Bitcoin
   body
@@ -51,7 +53,7 @@ html(lang='pt-br')
         .head__row
           .wrapper
             .head__cell.head__brand
-              a.logo(href='/')
+              a.logo.btn--home(href='/')
                 img(src='assets/img/logo.png')
               a.head-btn(href='')
                 svg#Layer_1.head-btn__open(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', width='100px', height='100px', viewbox='0 0 100 100', enable-background='new 0 0 100 100', xml:space='preserve')
@@ -81,7 +83,7 @@ html(lang='pt-br')
                 li
                   span.btn--beta BETA
                 li
-                  a(href='/contact') Contato
+                  a(href='mail:contato@bitkup.com') Contato
                 //li.dropdown
                 //  .dropdown-active
                 //    .dropdown-active__icon

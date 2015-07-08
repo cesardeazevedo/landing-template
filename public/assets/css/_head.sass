@@ -5,20 +5,19 @@
   font-size: 16px
   position: relative
   > .wrapper
-    +cf
     position: relative
 
 .head__bg
   background: url(../img/noise.png) repeat, rgba(#000, .4)
 
 .head__row
-  position: fixed
-  margin-bottom: 50px
-  z-index: 1000
+  //position: fixed
+  //margin-bottom: 50px
   transition: all 0.3s ease
+  width: 100%
+  z-index: 1000
   +media-query(desk)
     display: table
-    width: 100%
     top: 0px
     border-bottom: 1px solid rgba(255, 255, 255, 0.2)
 
@@ -26,10 +25,9 @@
   background: rgba(69, 172, 108, 0.95)
   border-color: #E8E9ED
   border: none
-
+  position: fixed
   .head__brand
-    padding-top: 15px
-
+    padding: 12px 0
   .head-nav
     > li
       > span, a
@@ -51,10 +49,12 @@
 
 .head__cell
   position: relative
+  width: 100%
   z-index: 100
   +media-query(desk)
     display: table-cell
     vertical-align: middle
+    width: auto
 
 .head-btn
   display: block
@@ -74,6 +74,8 @@
 .head-nav
   background: #f7f7f7
   border: 1px solid rgba(#000, .08)
+  display: none
+  font-size: 14px
   line-height: 1
   list-style: none
   margin: 0
@@ -108,5 +110,8 @@
   display: block
 
 .logo
+  display: block
+  float: left
   > img
+    display: block
     width: 172px
