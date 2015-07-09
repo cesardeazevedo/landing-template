@@ -3,29 +3,15 @@
 
   #works.feature
     .wrapper
-      h1 COMO FUNCIONA?
-      p Use todo o conhecimento esportivo, estratégia e sorte para tentar acertar o maior número de resultados, os melhores classificados nos ranking's trocam seus pontos por Bitcoins ao término dos eventos.
+      h1 #{ works.title }
+      p #{ works.description }
       .feature__row
-        .feature__cell
-          .feature-item
-            img(src='assets/img/works/1.png').feature-item__img
-            h2.feature-item__title Cadastre-se
-            p Utilize seu perfil em alguma rede social ou se preferir faça o Login Anônimo
-        .feature__cell
-          .feature-item
-            img(src='assets/img/works/2.png').feature-item__img
-            h2.feature-item__title Adquira créditos
-            p Divirta-se na Liga FREE ou selecione um dos pacotes de crédito disponíveis
-        .feature__cell
-          .feature-item
-            img(src='assets/img/works/3.png').feature-item__img
-            h2.feature-item__title Chute à vontade
-            p Grave suas previsões na plataforma e acumule pontos por previsões corretas
-        .feature__cell
-          .feature-item
-            img(src='assets/img/works/4.png').feature-item__img
-            h2.feature-item__title Resgate o prêmio
-            p Os melhores classificados resgatam seus pontos por Bitcoin
+        for item, index in works.items
+          .feature__cell
+            .feature-item
+                img(src='assets/img/works/#{ index }.png').feature-item__img
+                h2.feature-item__title= item.title
+                p= item.description
 
   span.divider.btn--platform
     i.mdi.mdi-chevron-down

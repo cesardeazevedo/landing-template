@@ -31,6 +31,30 @@
                 "url": "https://bitcoinmagazine.com/13765/brazil-world-cup-gets-unique-bitcoin-bookies/"
             }
         },
+        "works": {
+            "title": "COMO FUNCIONA?",
+            "description": "Use todo o conhecimento esportivo, estratégia e sorte para tentar acertar o maior número de resultados, os melhores classificados nos ranking's trocam seus pontos por Bitcoins ao término dos eventos.",
+            "items": {
+                "1": {
+                    "title": "Cadastre-se",
+                    "description": "Utilize seu perfil em alguma rede social ou se preferir faça o Login Anônimo"
+                },
+                "2": {
+                    "title": "Adquira créditos",
+                    "description": "Divirta-se na Liga FREE ou selecione um dos pacotes de crédito disponíveis"
+                },
+                "3": {
+                    "title": "Chute à vontade",
+                    "description": "Grave suas previsões na plataforma e acumule pontos por previsões corretas"
+                },
+                "4": {
+                    "title": "Resgate o prêmio",
+                    "description": "Os melhores classificados resgatam seus pontos por Bitcoin"
+                }
+            }
+        },
+        "platform": {
+        },
         "worldcup": {
             "free": {
                 "1": {
