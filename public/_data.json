@@ -54,8 +54,60 @@
             }
         },
         "platform": {
+            "title": "NOSSA PLATAFORMA",
+            "description": "A bitkup é uma nova e excitante alternativa para o entretenimento esportivo.",
+            "description2": "Utilizamos a tecnologia do Bitcoin e sua rede para garantir total transparência e interoperabilidade em nossas transações, tanto para  recebimento, registro de previsões e pagamento dos prêmios, tudo muito transparente do início ao fim.",
+            "items":{
+                "row1": {
+                    "1": {
+                        "title": "Bitcoin",
+                        "icon": "mdi-currency-btc",
+                        "description": "Escolhemos a moeda mais segura do planeta para ser o nosso motor financeiro, somos a primeira plataforma de previsões esportivas em Bitcoin."
+                    },
+                    "2": {
+                        "title": "Anonimato",
+                        "icon": "mdi-account",
+                        "description": "Ninguém precisa saber quem é você, nos importamos muito com a sua privacidade, jamais iremos compartilhar quaisquer informação com terceiros."
+                    },
+                    "3": {
+                        "title": "Segurança",
+                        "icon": "mdi-security",
+                        "description": "Mantemos 90% dos fundos em carteiras frias e os 10% restantes permanecem em carteiras multi-assinadas é assegurada pela BitGO."
+                    },
+                    "4": {
+                        "title": "Transparência",
+                        "icon": "mdi-source-fork",
+                        "description": "Todas as transações efetuadas em nossa plataforma são registradas na Blockchain e permaneceram visíveis e auditáveis por toda eternidade."
+                    }
+                },
+                "row2" : {
+                    "5": {
+                        "title": "Múltiplos Eventos",
+                        "icon": "mdi-presentation-play",
+                        "description": "Cobertura dos maiores e menores eventos esportivos da terra, seja um torneio de futebol universitário, lutas de MMA ou algum evento especial."
+                    },
+                    "6": {
+                        "title": "Múltiplas Previsões",
+                        "icon": "mdi-numeric-9-plus-box-multiple-outline",
+                        "description": "Não limitamos sua previsão apenas ao placar ou resultado de um evento, exploramos outras variáveis e desafiaremos você a conquistar pontos extras."
+                    },
+                    "7": {
+                        "title": "Desafie Oponentes",
+                        "icon": "mdi-sword",
+                        "description": "Sentiu-se ameaçado diretamente por algum oponente? Proponha um desafio e tente retirar pontos dele e tomar o seu lugar no ranking."
+                    },
+                    "8": {
+                        "title": "Previsões ao Vivo",
+                        "icon": "mdi-theater",
+                        "description": "Altere previsões antes do início dos jogos e acompanhe o andamento ao vivo com a gente."
+                    }
+                }
+            }
+
         },
         "worldcup": {
+            "title": "EVENTOS PASSADOS - COPA DO MUNDO 2014",
+            "description": "A Copa do Mundo de Futebol realizada em 2014 no Brasil foi o evento escolhido para o lançamento da bitkup, durante os 50 dias de cobertura do evento recebemos mais de 600.000 visitantes únicos de várias nacionalidades, arrecadamos em nosso BITPOT um  <a target='_BLANK' href='https://blockchain.info/address/17CcWnEabTLNmwiSqohXuDJHvAKJo1Hy28'>prêmio acumulado de 7.26 BTC’s </a> ou U$4,492,34 no dia 13/7/2014. Os 23 melhores colocados nos ranking's das Ligas FREE (3) e PRO (20) dividiram a premiação.",
             "free": {
                 "1": {
                     "position": "1",
@@ -402,6 +454,17 @@
                     "win": false
                 }
             }
+        },
+        "whatis": {
+            "title": "O QUE É BITCOIN?"
+        },
+        "beta": {
+            "title": "SOLICITAR ACESSO v2.0",
+            "email": "Seu Email",
+            "button": "Enviar"
+        },
+        "footer": {
+            "description": "Bitcoin é o único método de pagamento utilizado em nossa plataforma. Nós não somos uma casa de câmbio, não trocamos Bitcoin por qualquer outra coisa que não sejam pontos na plataforma."
         }
     },
     "contact": {
