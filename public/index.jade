@@ -9,7 +9,7 @@
         for item, index in works.items
           .feature__cell
             .feature-item
-                img(src='assets/img/works/#{ index }.png').feature-item__img
+                img(src='/assets/img/works/#{ index }.png').feature-item__img
                 h2.feature-item__title= item.title
                 p= item.description
 
@@ -58,7 +58,7 @@
    .wrapper
      h1= worldcup.title
 
-     p= worldcup.description
+     p!= worldcup.description
      hr
      .feature__row
        .feature__cell
