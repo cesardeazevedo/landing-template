@@ -1,7 +1,7 @@
 {
     "index": {
-        "lang": "en",
         "source": "index",
+        "lang": "en",
         "nav": {
             "works": "How It Works?",
             "platform": "Our Platform",
@@ -482,8 +482,5 @@
             "description": "Bitcoin is the only payment method used in our platform, We are not a exchange, we do not trade bitcoin for anything else other than points in the platform.",
             "press": "Press"
         }
-    },
-    "contact": {
-        "source": "contact"
     }
 }

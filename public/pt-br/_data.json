@@ -1,7 +1,7 @@
 {
     "index": {
-        "lang": "",
         "source": "index",
+        "lang": "pt-br",
         "nav": {
             "works": "Como Funciona?",
             "platform": "Nossa Plataforma",
@@ -87,7 +87,7 @@
                     "3": {
                         "title": "Segurança",
                         "icon": "mdi-security",
-                        "description": "Mantemos 90% dos fundos em carteiras frias e os 10% restantes permanecem em carteiras multi-assinadas é assegurada pela BitGO."
+                        "description": "Mantemos 90% dos fundos em carteiras frias e os 10% restantes permanecem em carteiras multi-assinadas e asseguradas pela BitGO."
                     },
                     "4": {
                         "title": "Transparência",
@@ -482,8 +482,5 @@
             "description": "Bitcoin é o único método de pagamento utilizado em nossa plataforma. Nós não somos uma casa de câmbio, não trocamos Bitcoin por qualquer outra coisa que não sejam pontos na plataforma.",
             "press": "Press"
         }
-    },
-    "contact": {
-        "source": "contact"
     }
 }

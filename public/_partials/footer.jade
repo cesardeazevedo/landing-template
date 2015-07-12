@@ -1,0 +1,44 @@
+span.divider.divider--light.btn--home
+  i.mdi.mdi-chevron-up
+script.
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50973733-1', 'bitkup.com');
+    ga('send', 'pageview');
+
+footer.foot
+  .wrapper
+    ul.foot-nav
+      li
+        foot-copy &copy; 2013 - 2015 bitkup.com | Previsões esportivas com Bitcoin - Alguns direitos reservados.
+      //li
+      //  a(href="") Termos de Uso
+      //li
+      //  a(href="") Política de Privacidade
+      //- li
+        //- a(href="") Imprensa
+      //li
+      //  a(href="") Ajude na tradução
+      //- li
+        //- a(href="") 100% Open-Source
+    p= public[lang]._data.index.footer.description
+    ul.foot-social
+      li
+        a(href='https://twitter.com/bitkup')
+          i.mdi.mdi-twitter
+      li
+        a(href='https://www.facebook.com/bitkup')
+          i.mdi.mdi-facebook
+      li
+        a(href='https://plus.google.com/+Bitkuper')
+          i.mdi.mdi-google-plus
+      //li
+      //  a(href='http://www.reddit.com/r/bitkup/')
+      //    i.mdi.mdi-reddit
+
+    br
+    p
+      a(href='mailto:imprensa@bitkup.com')= public[lang]._data.index.footer.press
