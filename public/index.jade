@@ -3,29 +3,15 @@
 
   #works.feature
     .wrapper
-      h1 COMO FUNCIONA?
-      p Use todo o conhecimento esportivo, estratégia e sorte para tentar acertar o maior número de resultados, os melhores classificados nos ranking's trocam seus pontos por Bitcoins ao término dos eventos.
+      h1 #{ works.title }
+      p #{ works.description }
       .feature__row
-        .feature__cell
-          .feature-item
-            img(src='assets/img/works/1.png').feature-item__img
-            h2.feature-item__title Cadastre-se
-            p Utilize seu perfil em alguma rede social ou se preferir faça o Login Anônimo
-        .feature__cell
-          .feature-item
-            img(src='assets/img/works/2.png').feature-item__img
-            h2.feature-item__title Adquira créditos
-            p Divirta-se na Liga FREE ou selecione um dos pacotes de crédito disponíveis
-        .feature__cell
-          .feature-item
-            img(src='assets/img/works/3.png').feature-item__img
-            h2.feature-item__title Chute à vontade
-            p Grave suas previsões na plataforma e acumule pontos por previsões corretas
-        .feature__cell
-          .feature-item
-            img(src='assets/img/works/4.png').feature-item__img
-            h2.feature-item__title Resgate o prêmio
-            p Os melhores classificados resgatam seus pontos por Bitcoin
+        for item, index in works.items
+          .feature__cell
+            .feature-item
+                img(src='/assets/img/works/#{ index }.png').feature-item__img
+                h2.feature-item__title= item.title
+                p= item.description
 
   span.divider.btn--platform
     i.mdi.mdi-chevron-down
@@ -37,120 +23,42 @@
       p Utilizamos a tecnologia do Bitcoin e sua rede para garantir total transparência e interoperabilidade em nossas transações, tanto para  recebimento, registro de previsões e pagamento dos prêmios, tudo muito transparente do início ao fim.
       br
       .feature__row
-        .feature__cell.card
-          .feature-item
-            .card__front.card__face
-              .icon
-                i.mdi.mdi-currency-btc
-              h2.feature-item__title Bitcoin
-            .card__back.card__face
-              .icon
-                i.mdi.mdi-currency-btc
-              .feature-item__title Bitcoin
-              hr
-              .text
-                | Escolhemos a moeda mais segura do planeta para ser o nosso motor financeiro, somos a primeira plataforma de previsões esportivas em Bitcoin.
-        .feature__cell.card
-          .feature-item
-            .card__front.card__face
-              h1.icon
-                i.mdi.mdi-account
-              h2.feature-item__title Anonimato
-            .card__back.card__face
-              .icon
-                i.mdi.mdi-account
-              .feature-item__title Anonimato
-              hr
-              .text
-                | Ninguém precisa saber quem é você, nos importamos muito com a sua privacidade, jamais iremos compartilhar quaisquer informação com terceiros.
-        .feature__cell.card
-          .feature-item
-            .card__front.card__face
-              h1.icon
-                i.mdi.mdi-security
-              h2.feature-item__title Segurança
-            .card__back.card__face
-              .icon
-                i.mdi.mdi-security
-              .feature-item__title Segurança
-              hr
-              .text
-                | Mantemos 90% dos fundos em carteiras frias e os 10% restantes permanecem em carteiras multi-assinadas é assegurada pela BitGO.
-        .feature__cell.card
-          .feature-item
-            .card__front.card__face
-              h1.icon
-                i.mdi.mdi-source-fork
-              h2.feature-item__title Transparência
-            .card__back.card__face
-              .icon
-                i.mdi.mdi-source-fork
-              .feature-item__title Transparência
-              hr
-              .text
-                | Todas as transações efetuadas em nossa plataforma são registradas na Blockchain e permaneceram visíveis e auditáveis por toda eternidade.
+        for item  in platform.items.row1
+          .feature__cell.card
+            .feature-item
+              .card__front.card__face
+                .icon
+                   i.mdi(class="#{ item.icon }")
+                h2.feature-item__title= item.title
+              .card__back.card__face
+                .icon
+                  i.mdi(class="#{ item.icon }")
+                .feature-item__title= item.title
+                hr
+                .text= item.description
       br
       .feature__row
-        .feature__cell.card
-          .feature-item
-            .card__front.card__face
-              h1.icon
-                i.mdi.mdi-presentation-play
-              h2.feature-item__title Múltiplos Eventos
-            .card__back.card__face
-              .icon
-                i.mdi.mdi-presentation-play
-              .feature-item__title Múltiplos Eventos
-               hr
-              .text
-                | Cobertura dos maiores e menores eventos esportivos da terra, seja um torneio de futebol universitário, lutas de MMA ou algum evento especial.
-        .feature__cell.card
-          .feature-item
-            .card__front.card__face
-              h1.icon
-                i.mdi.mdi-numeric-9-plus-box-multiple-outline
-              h2.feature-item__title Múltiplas Previsões
-            .card__back.card__face
-              .icon
-                i.mdi.mdi-numeric-9-plus-box-multiple-outline
-              .feature-item__title Múltiplas Previsões
-              hr
-              .text
-                | Não limitamos sua previsão apenas ao placar ou resultado de um evento, exploramos outras variáveis e desafiaremos você a conquistar pontos extras.
-        .feature__cell.card
-          .feature-item
-            .card__front.card__face
-              h1.icon
-                i.mdi.mdi-sword
-              h2.feature-item__title Desafie Oponentes
-            .card__back.card__face
-              .icon
-                i.mdi.mdi-sword
-              .feature-item__title Desafie Oponentes
-              hr
-              .text
-                | Sentiu-se ameaçado diretamente por algum oponente? Proponha um desafio e tente retirar pontos dele e tomar o seu lugar no ranking.
-        .feature__cell.card
-          .feature-item
-            .card__front.card__face
-              h1.icon
-                i.mdi.mdi-theater
-              h2.feature-item__title Previsões ao Vivo
-            .card__back.card__face
-              .icon
-                i.mdi.mdi-theater
-              .feature-item__title Previsões ao Vivo
-              hr
-              .text
-                | Altere previsões antes do início dos jogos e acompanhe o andamento ao vivo com a gente.
+        for item  in platform.items.row2
+          .feature__cell.card
+            .feature-item
+              .card__front.card__face
+                .icon
+                   i.mdi(class="#{ item.icon }")
+                h2.feature-item__title= item.title
+              .card__back.card__face
+                .icon
+                  i.mdi(class="#{ item.icon }")
+                .feature-item__title= item.title
+                hr
+                .text= item.description
 
   span.divider.btn--worldcup
     i.mdi.mdi-chevron-down
   #worldcup.worldcup
    .wrapper
-     h1 EVENTOS PASSADOS - COPA DO MUNDO 2014
+     h1= worldcup.title
 
-     p A Copa do Mundo de Futebol realizada em 2014 no Brasil foi o evento escolhido para o lançamento da bitkup, durante os 50 dias de cobertura do evento recebemos mais de 600.000 visitantes únicos de várias nacionalidades, arrecadamos em nosso BITPOT um  <a target="_BLANK" href="https://blockchain.info/address/17CcWnEabTLNmwiSqohXuDJHvAKJo1Hy28">prêmio acumulado de 7.26 BTC’s </a> ou U$4,492,34 no dia 13/7/2014. Os 23 melhores colocados nos ranking's das Ligas FREE (3) e PRO (20) dividiram a premiação.
+     p!= worldcup.description
      hr
      .worldcup__row
        .worldcup__cell
@@ -207,22 +115,21 @@
     i.mdi.mdi-chevron-down
   #whatis.whatis
     .wrapper
-      h1 O QUE É BITCOIN?
+      h1= whatis.title
       script.
         function Wj(a){return"chrome-extension://"+a+"/cast_sender.js"}
 
-      //- iframe(height='315' src='https://www.youtube.com/embed/Gc2en3nHxA4?showinfo=0' frameborder='0')
       object(style="width:100%" height="515" data="http://www.youtube.com/v/Gc2en3nHxA4")
 
   #beta.newsletter
     .newsletter__bg
       .wrapper
-        h1 SOLICITAR ACESSO v2.0
+        h1= beta.title
         form.newsletter-form(method="POST" action="https://docs.google.com/forms/d/1VJAcj5lJmze6pnp9BnNAN13-0w35uDX7_DOzP9XRI6g/formResponse")
           span.input.input--kyo
-            input.input__field.input__field--kyo(type="email" id="input" name="entry.2026444604" placeholder="Seu Email" required)
+            input.input__field.input__field--kyo(type="email" id="input" name="entry.2026444604" placeholder="#{ beta.email }" required)
             label.input__label.input__label--kyo(for="input")
               span.input__label-content.input__label-content--kyo
           button.button.button--antiman.button--primary.button--text-thick.button--text-upper.button--size-l.button--inverted-alt.button--round-s.button--border-thick(type="submit")
-            span Enviar
+            span= beta.button
 
