@@ -73,17 +73,17 @@ html(lang='pt-br')
             .head__cell.head__right
               ul.head-nav
                 li
-                  span.btn--works= nav.works
+                  span.btn--works= public._data.index.nav.works
                 li
-                  span.btn--platform= nav.platform
+                  span.btn--platform= public._data.index.nav.platform
                 li
-                  span.btn--worldcup= nav.worldcup
+                  span.btn--worldcup= public._data.index.nav.worldcup
                 li
-                  span.btn--whatis= nav.whatis
+                  span.btn--whatis= public._data.index.nav.whatis
                 li
-                  span.btn--beta= nav.beta
+                  span.btn--beta= public._data.index.nav.beta
                 li
-                  a(href='mail:contato@bitkup.com')= nav.contact
+                  a(href='mail:contato@bitkup.com')= public._data.index.nav.contact
                 //li.dropdown
                 //  .dropdown-active
                 //    .dropdown-active__icon
@@ -98,16 +98,16 @@ html(lang='pt-br')
         if current.source == 'index'
           .wrapper
             .banner
-              h1.banner__title= banner.title
-              p.banner__subtitle!= banner.description
+              h1.banner__title= public._data.index.banner.title
+              p.banner__subtitle!= public._data.index.banner.description
               div
                 ul.banner__list
                   li
                     button.button.button--antiman.button--primary.button--text-thick.button--text-upper.button--size-m.button--inverted-alt.button--round-s.button--border-thick.btn--works
-                      span= banner.works_button
+                      span= public._data.index.banner.works_button
                   li
                     button.button.button--antiman.button--text-thick.button--text-upper.button--size-m.button--inverted-alt.button--round-s.button--border-thick.btn--beta
-                      span= banner.beta_button
+                      span= public._data.index.banner.beta_button
 
     != yield
 
@@ -137,7 +137,7 @@ html(lang='pt-br')
           //  a(href="") Ajude na tradução
           //- li
             //- a(href="") 100% Open-Source
-        p= footer.description
+        p= public._data.index.footer.description
         ul.foot-social
           li
             a(href='https://twitter.com/bitkup')
@@ -154,4 +154,4 @@ html(lang='pt-br')
 
         br
         p
-          a(href='mailto:imprensa@bitkup.com')= footer.press
+          a(href='mailto:imprensa@bitkup.com')= public._data.index.footer.press
