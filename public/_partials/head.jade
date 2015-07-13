@@ -11,17 +11,18 @@ html(lang='#{ lang }')
     meta(property='og:locate' content='#{ lang }')
     meta(property="og:title" content="#{ public[lang]._data.index.title }")
     meta(property='og:site_name' content='bitkup.com')
-    meta(property='og:url' content='http://www.bitkup.com')
-    meta(property="og:image" content="http://bitkup.com/img/fb-img-post.png")
+    meta(property='og:url' content='https://www.bitkup.com')
+    meta(property="og:image" content="https://bitkup.com/img/fb-img-post.png")
     meta(property='og:type' content='website')
     meta(property="og:description" content="#{ public[lang]._data.index.description }")
 
     meta(name='twitter:card' content='summary')
     meta(name='twitter:title' content='#{ public[lang]._data.index.title }')
     meta(name='twitter:description' content='#{ public[lang]._data.index.description }')
-    meta(name='twitter:image' content='http://bitkup.com/img/fb-img-post.png')
+    meta(name='twitter:image' content='https://bitkup.com/img/fb-img-post.png')
     meta(name='twitter:site' content='bitkup.com')
 
+    link(rel="canonical"  href='https://bitkup.com')
     link(rel='stylesheet' href='/assets/css/style.css')
     link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700')
     link(rel='stylesheet' href='/dest/components.min.css' media='all')
@@ -35,6 +36,11 @@ html(lang='#{ lang }')
     script(src="#{ site_js }input.js")
     script(src="#{ site_js }points.js")
     script(src="#{ site_js }main.js")
+    script.
+      //force redirect to https
+      var host = "bitkup.com";
+      if((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
 
     title= public[lang]._data.index.title
   body
