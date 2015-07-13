@@ -3,49 +3,40 @@ html(lang='#{ lang }')
   head
     meta(charset='UTF-8')
     meta(name='viewport' content='width=device-width, initial-scale=1')
-    meta(name="description" content="A bitkup é um torneio virtual que permite os fãs de esportes reais à preverem resultados usando Bitcoin e competir entre si por prêmios em Bitcoin.")
-    meta(name="keywords" content="game de previsões, previsões esportivas com bitcoin, tecnologia blockchain, previsões esportivas com bitcoin, anonimato, copa do mundo 2014, esportes")
+    meta(name="description" content="#{ public[lang]._data.index.description }")
+    meta(name="keywords" content="#{ public[lang]._data.index.keywords }")
     meta(name='author' content='bitkup')
     meta(name='revisit-after' content='5 days')
 
-    meta(property='og:locate' content='pt_BR')
-    meta(property="og:title" content="bitkup | Previsões esportivas com Bitcoin")
+    meta(property='og:locate' content='#{ lang }')
+    meta(property="og:title" content="#{ public[lang]._data.index.title }")
     meta(property='og:site_name' content='bitkup.com')
     meta(property='og:url' content='http://www.bitkup.com')
     meta(property="og:image" content="http://bitkup.com/img/fb-img-post.png")
     meta(property='og:type' content='website')
-    meta(property="og:description" content="A bitkup é um torneio virtual que permite os fãs de esportes reais à preverem resultados usando Bitcoin e competir entre si por prêmios em Bitcoin.")
+    meta(property="og:description" content="#{ public[lang]._data.index.description }")
 
     meta(name='twitter:card' content='summary')
-    meta(name='twitter:title' content='bitkup | Previsões esportivas com Bitcoin')
-    meta(name='twitter:description' content='A bitkup é um torneio virtual que permite os fãs de esportes reais à preverem resultados usando Bitcoin e competir entre si por prêmios em Bitcoin.')
+    meta(name='twitter:title' content='#{ public[lang]._data.index.title }')
+    meta(name='twitter:description' content='#{ public[lang]._data.index.description }')
     meta(name='twitter:image' content='http://bitkup.com/img/fb-img-post.png')
     meta(name='twitter:site' content='bitkup.com')
 
     link(rel='stylesheet' href='/assets/css/style.css')
     link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700')
-    link(rel='stylesheet' href='/components/mdi/css/materialdesignicons.min.css' media='all')
-    link(rel='stylesheet' href='/components/owl-carousel2/dist/assets/owl.carousel.css')
-    link(rel='stylesheet' href='/components/owl-carousel2/dist/assets/owl.theme.default.css')
-    link(rel='stylesheet' href='/components/animate.css/animate.min.css')
+    link(rel='stylesheet' href='/dest/components.min.css' media='all')
 
     link(rel='shortcut icon' href='assets/img/favicon.ico' type='image/x-icon')
     link(rel='icon' href='/assets/img/favicon.ico' type='image/x-icon')
 
-    script(src="#{ site_components }jquery/dist/jquery.min.js")
-    script(src='#{ site_components }owl-carousel2/dist/owl.carousel.js')
-    script(src="#{ site_components }waypoints/lib/jquery.waypoints.min.js")
-    script(src="#{ site_components }jquery.easing/js/jquery.easing.min.js")
-    script(src="#{ site_components }jquery.scrollTo/jquery.scrollTo.min.js")
-    script(src="#{ site_components }enquire/dist/enquire.js")
-    script(src="#{ site_components }requirejs/require.js")
+    script(src="/dest/components.min.js")
     script(src="#{ site_js }carousel.js")
     script(src="#{ site_js }scroll.js")
     script(src="#{ site_js }input.js")
     script(src="#{ site_js }points.js")
     script(src="#{ site_js }main.js")
 
-    title bitkup | Previsões esportivas com Bitcoin
+    title= public[lang]._data.index.title
   body
     header.head
       canvas(id="back" style="width:100%;height:100%;position:absolute;top:0px;opacity:1")
@@ -73,7 +64,7 @@ html(lang='#{ lang }')
             .head__cell.head__right
               ul.head-nav
                 li
-                  span.btn--works= public[lang]._data.index.nav.works
+                  span.btn--works #{ public[lang]._data.index.nav.works }
                 li
                   span.btn--platform= public[lang]._data.index.nav.platform
                 li

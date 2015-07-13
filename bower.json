@@ -29,5 +29,34 @@
     "animate.css": "~3.3.0",
     "enquire": "~2.1.2",
     "requirejs": "~2.1.18"
+  },
+  "overrides": {
+      "animate.css": {
+          "main": "animate.min.css"
+      },
+      "jquery": {
+          "main": "dist/jquery.min.js"
+      },
+      "enquire": {
+          "main": "dist/enquire.min.js"
+      },
+      "jquery.easing": {
+          "main": "js/jquery.easing.min.js"
+      },
+      "jquery.scrollTo": {
+          "main": "jquery.scrollTo.min.js"
+      },
+      "mdi": {
+          "main": "css/materialdesignicons.min.css"
+      },
+      "owl-carousel2": {
+          "main": [ "dist/owl.carousel.min.js", "dist/assets/owl.carousel.min.css", "dist/assets/owl.theme.default.min.css" ]
+      },
+      "requirejs": {
+          "main": "require.js"
+      },
+      "waypoints": {
+          "main": "lib/jquery.waypoints.min.js"
+      }
   }
 }
