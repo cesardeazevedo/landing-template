@@ -64,5 +64,10 @@ $(document).ready(function(){
         setTimeout(function(){
             $("#worldcup table.pro").addClass("animated fadeInRightSmall");
         }, 300);
+        setTimeout(function(){
+            if(!$('#video').length)
+                $("#whatis > .wrapper").append('<iframe id="video" width="100%" height="515" src="//www.youtube.com/embed/Gc2en3nHxA4?rel=0" frameborder="0" allowfullscreen></iframe>');
+        }, 800);
     });
+
 });
