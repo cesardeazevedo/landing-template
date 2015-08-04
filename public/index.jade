@@ -54,6 +54,19 @@
 
   span.divider.btn--worldcup
     i.mdi.mdi-chevron-down
+  #sport.shuffle-wrap
+    .wrapper
+      h1 Esportes
+    #grid
+      for item in sports
+        .column
+          .box
+            img(src='#{item.url}' alt='gallery')
+            figcaption
+              img.iconsvg(src="assets/img/icons/sports_soccer.svg")
+
+  span.divider.btn--worldcup
+    i.mdi.mdi-chevron-down
   #worldcup.worldcup
    .wrapper
      h1= worldcup.title
