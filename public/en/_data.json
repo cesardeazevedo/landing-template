@@ -123,6 +123,100 @@
             }
 
         },
+        "sports": {
+            "1": {
+                "name": "Football",
+                "url": "/assets/img/sports/football.jpg"
+            },
+            "2": {
+                "name": "Football",
+                "url": "/assets/img/sports/football2.jpg"
+            },
+            "3": {
+                "name": "Football",
+                "url": "/assets/img/sports/football.jpg"
+            },
+            "4": {
+                "name": "Football",
+                "url": "/assets/img/sports/football2.jpg"
+            },
+            "5": {
+                "name": "Football",
+                "url": "/assets/img/sports/football.jpg"
+            },
+            "6": {
+                "name": "Football",
+                "url": "/assets/img/sports/football.jpg"
+            },
+            "7": {
+                "name": "Football",
+                "url": "/assets/img/sports/football2.jpg"
+            },
+            "8": {
+                "name": "Football",
+                "url": "/assets/img/sports/football.jpg"
+            },
+            "9": {
+                "name": "Football",
+                "url": "/assets/img/sports/football2.jpg"
+            },
+            "10": {
+                "name": "Football",
+                "url": "/assets/img/sports/football.jpg"
+            },
+            "11": {
+                "name": "Football",
+                "url": "/assets/img/sports/football2.jpg"
+            },
+            "12": {
+                "name": "Football",
+                "color": "tomato",
+                "url": "/assets/img/sports/football.jpg"
+            }
+        },
+        "leagues": {
+
+        },
+        "prices": {
+            "title": "Preços",
+            "free": "FREE",
+            "pro": "PRO",
+            "buy": "COMPRAR",
+            "items": {
+                "1": {
+                    "title": "10 CREDITOS",
+                    "value": "0.05 BTC",
+                    "items": [
+                        "Direito de prever 1 único placar/resultado",
+                        "Direito a responder 3 perguntas bônus ou desafios sobre aquele evento"
+                    ]
+                },
+                "2": {
+                    "title": "20 CREDITOS",
+                    "value": "0.10 BTC",
+                    "items": [
+                        "Direito de prever 1 rodada completa, 2 placares/resultados ou mais",
+                        "Direito de responder a 6 perguntas bônus ou desafios sobre aquele evento"
+                    ]
+                },
+                "3": {
+                    "title": "30 CREDITOS",
+                    "value": "0.15 BTC",
+                    "items": [
+                        "Direito de prever um evento completo, do início ao fim",
+                        "Direito de responder a 10 perguntas bônus ou desafios sobre aquele evento"
+                    ]
+                },
+                "4": {
+                    "title": "100 CREDITOS",
+                    "value": "0.4 BTC",
+                    "items": [
+                        "Direito de prever todos os eventos cadastrados, do início ao fim",
+                        "Direito de responder a todas as perguntas bônus ou desafios cadastrados em cada um dos eventos ativos"
+                    ]
+                }
+            }
+        },
         "worldcup": {
             "title": "PAST EVENTS - WORLD CUP 2014",
             "description": "The World Cup Soccer performed in 2014 in Brazil was the chosen event for the launch of bitkup during the 50 days event coverage received more than 600,000 unique visitors of various nationalities, we raised in our BITPOT an accumulated prize of <a target='_BLANK' href='https://blockchain.info/address/17CcWnEabTLNmwiSqohXuDJHvAKJo1Hy28'>an accumulated prize of 7.26 BTC’s </a> or U$4,492,34 on day 7/13/2014. The 23 best placed in the ranking's of FREE Leagues (3) and PRO (20) shared the award.",
@@ -471,6 +565,24 @@
                     "link": "https://blockchain.info/en/tx/8a9667a1357e2a73cce4d1e65d78c2d4a280600a3254429c24a72e7b3123e964",
                     "win": false
                 }
+            }
+        },
+        "faq": {
+            "items": {
+                "Como surgiu a ideia?": "Somo um grupo de desenvolvedores independentes e apaixonados pelo Bitcoin e também por futebol, a Bitkup.com foi criada para a diversão e popularização dessa incrível tecnologia.",
+                "Onde estão guardados os Bitcoins do prêmio acumulado? Posso vê-los?": "TODAS as apostas vão para o mesmo endereço PUBLICO na blockchain e que pode ser visualizado e auditado a qualquer momento: <a href=\"https://blockchain.info/address/17CcWnEabTLNmwiSqohXuDJHvAKJo1Hy28\" target=\"_blank\" title=\"Blockchain's Bitkup wallet\">Carteia Bitkup no Blockchain</a>.",
+                "E se eu apostar após o início da Copa do Mundo?": "Tudo bem! Mas os palpites anteriores serão anulados.",
+                "Porque o valor anunciado na BITPOT é diferente da carteira acima?": "Como descrito na Política de Transparência todas as apostas são depositadas na íntegra e ainda não debitamos a taxa de 0.01 BTC por aposta, por isso o valor não é idêntico ao da BITPOT, ao final da competição todos irão receber sua parte, inclusive nós os desenvolvedores.",
+                "Posso participar mesmo não possuíndo Bitcoins?": "Sim! Basta efetuar o cadastro em nosso sistema que automaticamente será incluído na Liga Bitkup FREE e competir apenas por diversão, sem chance de levar o prêmio acumulado da BITPOT.",
+                "O que ganho em participar da Liga Bitkup FREE?": "Após o início da Copa do Mundo iremos anunciar as premiações da Liga Bitkup FREE, brindes relacionados a criptomoedas e futebol. Aguarde!",
+                "Como será feita a divisão entre os participantes da Liga Bitkup FREE e a bitkup PRO?": "Teremos dois rankings distintos, um para cada liga.",
+                "Posso visualizar as apostas dos demais participantes?": "Sim! Você poderá verificar todos os palpites feitos de jogos passados e que estão acontecendo e comprovar a posição daquele participante no ranking geral.",
+                "O que acontece se eu ficar entre os 20 primeiros do Ranking PRO?": "Nossa equipe irá entrar em contato parabenizando-o e você recebe uma porcentagem do prêmio acumulado na BITPOT com descrito nos Termos de Uso da competição.",
+                "Como é feito o pagamento dos prêmios?": "Iremos transferir a sua porcentagem (%) para a carteira informada registrada em seu cadastro.",
+                "Qual o fuso horário do sistema da Bitkup?": "O nosso sistema utiliza o Horário de Brasília - DF - Brasil.",
+                "Qual é o prazo limite para alteração de um palpite?": "Alterações poderão ser feitas até o início de cada partida, pelo horário de Brasília (BR).",
+                "Qual o prazo final para responder a pergunta bônus?": "Você tem até o início da fase de oitavas de final para responder quem irá vencer a Copa do Mundo 2014 e se acertar poderá somar +10 pontos ao seu placar final.",
+                "Vocês fazem backup's? O sistema é seguro?": "Sim, nós fazemos backup's regulares e todo o sistema possuí mecanismos de segurança extra que garantem a integridade de todas as informações."
             }
         },
         "whatis": {
