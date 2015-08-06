@@ -21,15 +21,15 @@
         },
         "news": {
             "infomoney": {
-                "name": "/assets/img/news/infomoney.png",
+                "name": "assets/img/news/infomoney.png",
                 "url": "http://www.infomoney.com.br/blogs/moeda-na-era-digital/noticia/3398788/bolao-copa-mundo-com-bitcoins"
             },
             "galileu": {
-                "name": "/assets/img/news/galileu.png",
+                "name": "assets/img/news/galileu.png",
                 "url": "http://revistagalileu.globo.com/Tecnologia/noticia/2014/06/site-permite-apostar-resultados-da-copa-do-mundo-em-bitcoins.html"
             },
             "coindesk": {
-                "name": "/assets/img/news/coindesk.png",
+                "name": "assets/img/news/coindesk.png",
                 "url": "http://www.coindesk.com/bitcoin-betting-kicks-brazil-world-cup/"
             },
             "wsj": {
@@ -37,15 +37,15 @@
                 "url": "http://blogs.wsj.com/digits/2014/06/12/for-the-world-cup-place-your-bitbets/"
             },
             "observer": {
-                "name":  "/assets/img/news/observer.png",
+                "name":  "assets/img/news/observer.png",
                 "url": "http://observer.com/2014/06/you-can-now-use-bitcoin-to-bet-on-the-world-cup/"
             },
             "thecointelegraph": {
-                "name": "/assets/img/news/thecointelegraph.png",
+                "name": "assets/img/news/thecointelegraph.png",
                 "url": "http://cointelegraph.com/news/111675/brazil_world_cup_2014_gets_unique_bitcoin_bookies"
             },
             "bitcoi2nmagazine": {
-                "name": "/assets/img/news/bmz.png",
+                "name": "assets/img/news/bmz.png",
                 "url": "https://bitcoinmagazine.com/13765/brazil-world-cup-gets-unique-bitcoin-bookies/"
             }
         },
@@ -126,52 +126,52 @@
         "sports": {
             "1": {
                 "name": "Football",
-                "url": "/assets/img/sports/football.jpg"
+                "url": "assets/img/sports/football.jpg"
             },
             "2": {
                 "name": "Football",
-                "url": "/assets/img/sports/football2.jpg"
+                "url": "assets/img/sports/football2.jpg"
             },
             "3": {
                 "name": "Football",
-                "url": "/assets/img/sports/football.jpg"
+                "url": "assets/img/sports/football.jpg"
             },
             "4": {
                 "name": "Football",
-                "url": "/assets/img/sports/football2.jpg"
+                "url": "assets/img/sports/football2.jpg"
             },
             "5": {
                 "name": "Football",
-                "url": "/assets/img/sports/football.jpg"
+                "url": "assets/img/sports/football.jpg"
             },
             "6": {
                 "name": "Football",
-                "url": "/assets/img/sports/football.jpg"
+                "url": "assets/img/sports/football.jpg"
             },
             "7": {
                 "name": "Football",
-                "url": "/assets/img/sports/football2.jpg"
+                "url": "assets/img/sports/football2.jpg"
             },
             "8": {
                 "name": "Football",
-                "url": "/assets/img/sports/football.jpg"
+                "url": "assets/img/sports/football.jpg"
             },
             "9": {
                 "name": "Football",
-                "url": "/assets/img/sports/football2.jpg"
+                "url": "assets/img/sports/football2.jpg"
             },
             "10": {
                 "name": "Football",
-                "url": "/assets/img/sports/football.jpg"
+                "url": "assets/img/sports/football.jpg"
             },
             "11": {
                 "name": "Football",
-                "url": "/assets/img/sports/football2.jpg"
+                "url": "assets/img/sports/football2.jpg"
             },
             "12": {
                 "name": "Football",
                 "color": "tomato",
-                "url": "/assets/img/sports/football.jpg"
+                "url": "assets/img/sports/football.jpg"
             }
         },
         "leagues": {
