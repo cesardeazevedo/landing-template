@@ -23,7 +23,7 @@ $(document).ready(function(){
             $('.banner__subtitle').addClass("animated fadeInUp");
         }, 700);
         var delay = 1500;
-        $.each($('button'), function(index, btn){
+        $.each($('header button'), function(index, btn){
             setTimeout(function(){
                 $(btn).addClass("animated fadeInUp");
             }, delay);
