@@ -1,0 +1,61 @@
+#prices
+  padding-top: 100px
+  padding-bottom: 100px
+  text-align: center
+  margin: auto
+  border-bottom: 1px solid #45AC6C
+
+  .wrapper
+    +media-query(desk)
+      width: 70%
+
+  .league__list
+    display: inline-block
+    position: relative
+    margin: 0
+    list-style: none
+    li
+      display: inline-block
+
+  ul.league__prices
+    list-style: none
+    margin-left: 10px
+    li.panel
+      background-color: #FFF
+      border: 1px solid #E8E9ED
+      border-radius: 4px
+
+      .panel-heading
+        padding: 35px 20px 20px
+        border-bottom: 1px solid #E8E9ED
+
+        .subhead
+          font-size: 14px
+          font-weight: 700
+          color: #42AB6A
+          line-height: 1
+          text-transform: uppercase
+          letter-spacing: 0.1em
+          margin: 0 0 1em
+
+        h2
+          margin-bottom: 0
+
+      .panel-body
+        padding: 20px 20px
+        min-height: 160px
+
+        ul.league__prices--list
+          list-style: none
+          margin: 0
+
+          li
+            height: 60px
+
+      .panel-footer
+        border-top: 0
+        padding: 0 30px 0 0
+
+        button
+          float: none
+          width: 100%

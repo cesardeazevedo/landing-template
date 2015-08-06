@@ -54,6 +54,38 @@
 
   span.divider.btn--worldcup
     i.mdi.mdi-chevron-down
+  #prices
+    .wrapper
+      h1= prices.title
+
+      ul.league__list
+        li
+          button.button.button--antiman.button--primary.button--text-thick.button--text-upper.button--size-m.button--alt.button--border-thick
+            span= prices.free
+        li
+          button.button.button--antiman.button--primary.button--text-thick.button--text-upper.button--size-m.button--alt.button--border-thick
+            span= prices.pro
+
+      .feature__row
+        for item in prices.items
+          .feature__cell
+            ul.league__prices
+              li.price--item.panel
+                .panel-heading.text--center
+                  p.subhead= item.value
+                    i.mdi.mdi-currency-btc
+                  h2= item.title
+                .panel-body.text--center
+                  ul.league__prices--list
+                    for description in item.items
+                      li= description
+                .panel-footer
+                  button.button.button--antiman.button--primary.button--text-thick.button--text-upper.button--size-m.button--alt.button--round-s.button--border-thick
+                    span= prices.buy
+
+
+  span.divider.btn--worldcup
+    i.mdi.mdi-chevron-down
   #sport.shuffle-wrap
     .wrapper
       h1 Esportes
@@ -123,6 +155,46 @@
                td
                  if player.win === true
                    i.mdi.mdi-trophy
+
+
+  #faq
+    ul.league__list
+      li
+        a.link-faq(href='#')
+          button.button.button--antiman.button--primary.button--text-thick.button--text-upper.button--size-m.button--alt.button--border-thick
+            span FAQ
+      li
+        a.link-rules(href='#')
+          button.button.button--antiman.button--primary.button--text-thick.button--text-upper.button--size-m.button--alt.button--border-thick
+            span REGRAS
+    div#page-2.container.page-transition
+      img(src="/assets/img/logo.png")
+      h2.title FAQ
+      a.link-faq.close(href="#")
+        i.mdi.mdi-close
+      .content
+        hr
+        for item, key in faq.items
+          h2.question= key
+          h3.description!= item
+
+    #loader.pageload-overlay(data-opening="M20,15 50,30 50,30 30,30 Z;M0,0 80,0 50,30 20,45 Z;M0,0 80,0 60,45 0,60 Z;M0,0 80,0 80,60 0,60 Z" data-closing="M0,0 80,0 60,45 0,60 Z;M0,0 80,0 50,30 20,45 Z;M20,15 50,30 50,30 30,30 Z;M30,30 50,30 50,30 30,30 Z")
+      svg(xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 80 60" preserveAspectRatio="none")
+        path(d="M30,30 50,30 50,30 30,30 Z")
+
+    div#page-3.container.page-transition
+      img(src="/assets/img/logo.png")
+      h2.title Regras
+      a.link-rules.close(href="#")
+        i.mdi.mdi-close
+      .content
+        hr
+        Regras
+
+    #loader.pageload-overlay(data-opening="M20,15 50,30 50,30 30,30 Z;M0,0 80,0 50,30 20,45 Z;M0,0 80,0 60,45 0,60 Z;M0,0 80,0 80,60 0,60 Z" data-closing="M0,0 80,0 60,45 0,60 Z;M0,0 80,0 50,30 20,45 Z;M20,15 50,30 50,30 30,30 Z;M30,30 50,30 50,30 30,30 Z")
+      svg(xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 80 60" preserveAspectRatio="none")
+        path(d="M30,30 50,30 50,30 30,30 Z")
+
 
   span.divider.btn--whatis
     i.mdi.mdi-chevron-down

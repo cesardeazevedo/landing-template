@@ -30,6 +30,8 @@ html(lang='#{ lang }')
     link(rel='shortcut icon' href='assets/img/favicon.ico' type='image/x-icon')
     link(rel='icon' href='/assets/img/favicon.ico' type='image/x-icon')
 
+    script(src="#{ site_js }snap.svg-min.js")
+    script(src="#{ site_js }svgLoader.js")
     script(src="/dest/components.min.js")
     script(src="#{ site_js }carousel.js")
     script(src="#{ site_js }scroll.js")
@@ -93,7 +95,7 @@ html(lang='#{ lang }')
                 //    li
                 //      a(href='/es/') ES
         .wrapper
-          .banner
+          .banner.animateme.scrollme(data-when="span" data-from="0.0" data-to="1" data-scale="0.75" data-opacity="0.1" data-easing="easein")
             h1.banner__title= public[lang]._data.index.banner.title
             p.banner__subtitle!= public[lang]._data.index.banner.description
             div

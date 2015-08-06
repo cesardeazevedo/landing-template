@@ -1,5 +1,5 @@
 var gulp        = require('gulp');
-var browserSync = require('browser-sync');
+var browserSync = require('browser-sync').create();
 var reload      = browserSync.reload;
 var harp        = require('harp');
 var bower       = require('main-bower-files');
@@ -15,13 +15,9 @@ gulp.task('serve', function () {
   harp.server('.', {
     port: 9000
   }, function () {
-    browserSync({
+    browserSync.init(__dirname, {
       proxy: "localhost:9000",
       open: false,
-      /* Hide the notification. It gets annoying */
-      notify: {
-        styles: ['opacity: 0', 'position: absolute']
-      }
     });
     /**
      * Watch for changes

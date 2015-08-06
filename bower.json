@@ -29,7 +29,8 @@
     "animate.css": "~3.3.0",
     "enquire": "~2.1.2",
     "savvior": "~0.5.0",
-    "requirejs": "~2.1.20"
+    "requirejs": "~2.1.20",
+    "scrollme": "~1.1.0"
   },
   "overrides": {
     "animate.css": {
@@ -57,6 +58,9 @@
         "dist/assets/owl.theme.default.min.css"
       ]
     },
+    "scrollme": {
+        "main": "jquery.scrollme.min.js"
+    },
     "waypoints": {
       "main": "lib/jquery.waypoints.min.js"
     },
@@ -64,7 +68,7 @@
       "main": "dist/savvior.min.js"
     },
     "requirejs": {
-        "main": "require.js"
+      "main": "require.js"
     }
   },
   "resolutions": {
