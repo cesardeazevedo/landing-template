@@ -1,8 +1,8 @@
 {
     "globals" : {
-        "site_css":  "/assets/css/",
+        "site_css":  "assets/css/",
         "site_components":  "../components/",
-        "site_js":  "/assets/script/",
-        "site_img":  "/img/"
+        "site_js":  "assets/script/",
+        "site_img":  "img/"
     }
 }
