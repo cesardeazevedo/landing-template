@@ -55,33 +55,33 @@
   span.divider.btn--worldcup
     i.mdi.mdi-chevron-down
   #prices
-    .wrapper
-      h1= prices.title
+    h1= prices.title
 
-      ul.league__list
-        li
-          button.button.button--antiman.button--primary.button--text-thick.button--text-upper.button--size-m.button--alt.button--border-thick
-            span= prices.free
-        li
-          button.button.button--antiman.button--primary.button--text-thick.button--text-upper.button--size-m.button--alt.button--border-thick
-            span= prices.pro
+    //- ul.league__list
+      //- li
+        //- button.button.button--antiman.button--primary.button--text-thick.button--text-upper.button--size-m.button--alt.button--border-thick
+          //- span= prices.free
+      //- li
+        //- button.button.button--antiman.button--primary.button--text-thick.button--text-upper.button--size-m.button--alt.button--border-thick
+          //- span= prices.pro
 
-      .feature__row
-        for item in prices.items
-          .feature__cell
-            ul.league__prices
-              li.price--item.panel
-                .panel-heading.text--center
-                  p.subhead= item.value
-                    i.mdi.mdi-currency-btc
-                  h2= item.title
-                .panel-body.text--center
-                  ul.league__prices--list
-                    for description in item.items
-                      li= description
-                .panel-footer
-                  button.button.button--antiman.button--primary.button--text-thick.button--text-upper.button--size-m.button--alt.button--round-s.button--border-thick
-                    span= prices.buy
+    .row.center-xs
+      .col-xs-12
+      for item in prices.items
+        .col-lg-3.col-md-5.col-sm-6
+          ul.league__prices
+            li.price--item.panel
+              .panel-heading.text--center
+                p.subhead= item.value
+                  i.mdi.mdi-currency-btc
+                h2= item.title
+              .panel-body.text--center
+                ul.league__prices--list
+                  for description in item.items
+                    li= description
+              .panel-footer
+                button.button.button--antiman.button--primary.button--text-thick.button--text-upper.button--size-m.button--alt.button--round-s.button--border-thick
+                  span= prices.buy
 
 
   span.divider.btn--worldcup
@@ -101,7 +101,7 @@
     i.mdi.mdi-chevron-down
   #worldcup.worldcup
    .wrapper
-     h1= worldcup.title
+     h1!= worldcup.title
 
      p!= worldcup.description
      hr
@@ -159,15 +159,6 @@
 
   #faq
     div
-      ul.league__list
-        li
-          a.link-faq(href='#')
-            button.button.button--antiman.button--primary.button--text-thick.button--text-upper.button--size-m.button--alt.button--border-thick
-              span FAQ
-        li
-          a.link-rules(href='#')
-            button.button.button--antiman.button--primary.button--text-thick.button--text-upper.button--size-m.button--alt.button--border-thick
-              span REGRAS
       div#page-2.container.page-transition
         img(src="assets/img/logo.png")
         h2.title FAQ

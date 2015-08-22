@@ -76,11 +76,15 @@ html(lang='#{ lang }')
                 li
                   span.btn--platform= public[lang]._data.index.nav.platform
                 li
-                  span.btn--worldcup= public[lang]._data.index.nav.worldcup
+                  span.btn--sport= public[lang]._data.index.nav.sports
+                //- li
+                  //- span.btn--league= public[lang]._data.index.nav.leagues
                 li
-                  span.btn--whatis= public[lang]._data.index.nav.whatis
+                  a.link-rules(href='#')
+                    span= public[lang]._data.index.nav.rules
                 li
-                  span.btn--beta= public[lang]._data.index.nav.beta
+                  a.link-faq(href='#')
+                    span= public[lang]._data.index.nav.faq
                 li
                   a(href='mail:contato@bitkup.com')= public[lang]._data.index.nav.contact
                 //li.dropdown
@@ -97,7 +101,7 @@ html(lang='#{ lang }')
         .wrapper
           .banner.animateme.scrollme(data-when="span" data-from="0.0" data-to="1" data-scale="0.75" data-opacity="0.1" data-easing="easein")
             h1.banner__title= public[lang]._data.index.banner.title
-            p.banner__subtitle!= public[lang]._data.index.banner.description
+            h3.banner__subtitle!= public[lang]._data.index.banner.description
             div
               ul.banner__list
                 li
