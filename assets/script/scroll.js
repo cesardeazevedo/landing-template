@@ -34,6 +34,18 @@ $(document).ready(function() {
         e.preventDefault();
     });
 
+    $('.btn--sport').click(function(e){
+        scrollTo('#sport');
+
+        e.preventDefault();
+    });
+
+    $('.btn--league').click(function(e){
+        scrollTo('#leagues');
+
+        e.preventDefault();
+    });
+
     $('.btn--whatis').click(function(e){
         scrollTo('#whatis');
 
