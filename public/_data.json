@@ -15,7 +15,7 @@
             "contact": "Contato"
         },
         "banner": {
-            "title": "A BITKUP É UM GAME DE PREVISÕES ESPORTIVAS COM BITCOIN",
+            "title": "BITKUP É UM GAME DE PREVISÕES ESPORTIVAS COM BITCOIN",
             "description": "Onde fans podem tentar a sorte prevendo resultados dos maiores eventos esportivos e disputar quantidades <strong>insanas</strong> de Bitcoin",
             "works_button": "COMO FUNCIONA",
             "beta_button": "SOLICITAR ACESSO v2.0"
@@ -52,7 +52,8 @@
         },
         "works": {
             "title": "COMO FUNCIONA?",
-            "description": "Use todo o conhecimento esportivo, estratégia e sorte para tentar acertar o maior número de resultados, os melhores classificados nos ranking's trocam seus pontos por Bitcoins ao término dos eventos.",
+            "subtitle": "Somos um game de previsões esportivas moderno e competitivo",
+            "description": "Utilize todo seu conhecimento esportivo, estratégia e sorte para acertar o maior número de previsões esportivas e disputar com outros apaixonados como você pelas premiações acumuladas em Bitcoin.",
             "items": {
                 "1": {
                     "title": "Cadastre-se",
@@ -64,18 +65,18 @@
                 },
                 "3": {
                     "title": "Chute à vontade",
-                    "description": "Grave suas previsões na plataforma e acumule pontos por previsões corretas"
+                    "description": "Selecione o evento, complete o placar, vencedores e responda aos desafios"
                 },
                 "4": {
                     "title": "Resgate o prêmio",
-                    "description": "Os melhores classificados resgatam seus pontos por Bitcoin"
+                    "description": "Os três melhores em cada evento resgatam seu prêmio em Bitcoin"
                 }
             }
         },
         "platform": {
             "title": "NOSSA PLATAFORMA",
             "description": "A bitkup é uma nova e excitante alternativa para o entretenimento esportivo.",
-            "description2": "Utilizamos a tecnologia do Bitcoin e sua rede para garantir total transparência e interoperabilidade em nossas transações, tanto para  recebimento, registro de previsões e pagamento dos prêmios, tudo muito transparente do início ao fim.",
+            "description2": "Nunca foi tão fácil gravar suas previsões e se gabar por toda eternidade! Utilizamos a tecnologia do Bitcoin e sua rede (Blockchain) para garantir total transparência e interoperabilidade em todas as nossas transações. Somos uma plataforma de previsões esportivas 100% transparente, auditável e totalmente baseada na economia Bitcoin.",
             "items":{
                 "row1": {
                     "1": {
@@ -220,7 +221,7 @@
         },
         "worldcup": {
             "title": "EVENTOS PASSADOS <br> COPA DO MUNDO 2014",
-            "description": "A Copa do Mundo de Futebol realizada em 2014 no Brasil foi o evento escolhido para o lançamento da bitkup, durante os 50 dias de cobertura do evento recebemos mais de 600.000 visitantes únicos de várias nacionalidades, arrecadamos em nosso BITPOT um  <a target='_BLANK' href='https://blockchain.info/address/17CcWnEabTLNmwiSqohXuDJHvAKJo1Hy28'>prêmio acumulado de 7.26 BTC’s </a> ou U$4,492,34 no dia 13/7/2014. Os 23 melhores colocados nos ranking's das Ligas FREE (3) e PRO (20) dividiram a premiação.",
+            "description": "A Copa do Mundo de Futebol realizada em 2014 no Brasil foi o evento escolhido para o lançamento da versão alpha da bitkup.com. A cobertura durou 50 dias e nesse período recebemos mais de 600.000 visitantes únicos, de várias nacionalidades, e arrecadamos em nosso BITPOT um  <a target='_BLANK' href='https://blockchain.info/address/17CcWnEabTLNmwiSqohXuDJHvAKJo1Hy28'>prêmio acumulado de 7.26 BTC’s</a> que foram divididos entre os 20 melhores na Liga PRO.",
             "free": {
                 "1": {
                     "position": "1",
