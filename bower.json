@@ -31,7 +31,8 @@
     "savvior": "~0.5.0",
     "requirejs": "~2.1.20",
     "scrollme": "~1.1.0",
-    "flexboxgrid": "~6.2.0"
+    "flexboxgrid": "~6.2.0",
+    "flag-icon-css": "~0.8.2"
   },
   "overrides": {
     "animate.css": {
@@ -51,6 +52,9 @@
     },
     "mdi": {
       "main": "css/materialdesignicons.min.css"
+    },
+    "flag-icon-css": {
+      "main": "css/flag-icon.min.css"
     },
     "owl-carousel2": {
       "main": [

@@ -71,22 +71,44 @@ html(lang='#{ lang }')
 
             .head__cell.head__right
               ul.head-nav
+
                 li
                   span.btn--works #{ public[lang]._data.index.nav.works }
                 li
                   span.btn--platform= public[lang]._data.index.nav.platform
                 li
-                  span.btn--sport= public[lang]._data.index.nav.sports
+                  span.btn--whatis= public[lang]._data.index.nav.whatis
+                li
+                  span.btn--worldcup= public[lang]._data.index.nav.worldcup
+
+                //- li
+                  //- span.btn--sport= public[lang]._data.index.nav.sports
                 //- li
                   //- span.btn--league= public[lang]._data.index.nav.leagues
-                li
-                  a.link-rules(href='#')
-                    span= public[lang]._data.index.nav.rules
-                li
-                  a.link-faq(href='#')
-                    span= public[lang]._data.index.nav.faq
+                //- li
+                  //- a.link-rules(href='#')
+                    //- span= public[lang]._data.index.nav.rules
+                //- li
+                  //- a.link-faq(href='#')
+                    //- span= public[lang]._data.index.nav.faq
                 li
                   a(href='mail:contato@bitkup.com')= public[lang]._data.index.nav.contact
+                li
+                  span
+                    .head__languages.dropdown
+                      .dropdown-active
+                        .dropdown-active__icon
+                          span.flag-icon.flag-icon-br
+                      ul.dropdown__body
+                        li
+                          a(href='/en')
+                            span.flag-icon.flag-icon-gb
+                        li
+                          a(href='/')
+                            span.flag-icon.flag-icon-br
+                        li
+                          a(href='/es')
+                            span.flag-icon.flag-icon-es
                 //li.dropdown
                 //  .dropdown-active
                 //    .dropdown-active__icon

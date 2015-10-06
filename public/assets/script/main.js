@@ -23,7 +23,7 @@ $(document).ready(function() {
     // desktop
     enquire.register("screen and (min-width: 1024px)", {
         match : function() {
-            require(["/assets/script/dots.js"]);
+            require(["assets/script/dots.js"]);
         }
     });
 });

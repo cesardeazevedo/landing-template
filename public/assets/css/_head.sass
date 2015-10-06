@@ -31,7 +31,7 @@
   .head-nav
     > li
       > span, a
-        padding: 30px 20px
+        padding: 30px 20px 32px
         text-decoration: initial
         &:hover
           box-shadow: inset 0px -3px 0px 0px #fff
@@ -69,6 +69,11 @@
   +media-query(desk)
     display: none
 
+.head__languages
+  top: -10px
+  .flag-icon
+    padding: 0px
+
 
 .head-nav
   background: rgba(#000, .2)
@@ -88,8 +93,8 @@
       padding: 12px
       transition: all .25s ease
       text-decoration: initial
-      &:hover
-        box-shadow: inset 0px -3px 0px 0px rgb(69, 172, 108)
+      // &:hover
+        // box-shadow: inset 0px -3px 0px 0px rgb(69, 172, 108)
     &:last-child
       border-bottom: none
   +media-query(desk)
