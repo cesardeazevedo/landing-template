@@ -11,8 +11,10 @@
           .feature__cell
             .feature-item
                 img(src='assets/img/works/works-#{ index }.png').feature-item__img
-                h2.feature-item__title= item.title
-                p= item.description
+                br
+                br
+                h2.feature-item__title(style='margin-bottom: 5px')= item.title
+                p(style='padding:10px')= item.description
 
   span.divider.btn--platform
     i.mdi.mdi-chevron-down
