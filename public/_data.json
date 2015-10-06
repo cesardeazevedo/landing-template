@@ -18,9 +18,9 @@
         },
         "banner": {
             "title": "BITKUP É UM GAME DE PREVISÕES ESPORTIVAS COM BITCOIN",
-            "description": "Onde fans podem tentar a sorte prevendo resultados dos maiores eventos esportivos e disputar quantidades <strong>insanas</strong> de Bitcoin",
+            "description": "onde fans podem tentar a sorte prevendo resultados dos maiores eventos esportivos e disputar quantidades insanas de Bitcoin.",
             "works_button": "COMO FUNCIONA",
-            "beta_button": "SOLICITAR ACESSO v2.0"
+            "beta_button": "SOLICITAR ACESSO"
         },
         "news": {
             "infomoney": {
@@ -55,19 +55,19 @@
         "works": {
             "title": "COMO FUNCIONA?",
             "subtitle": "Somos um game de previsões esportivas moderno e competitivo",
-            "description": "Utilize todo seu conhecimento esportivo, estratégia e sorte para acertar o maior número de previsões esportivas e disputar com outros apaixonados como você pelas premiações acumuladas em Bitcoin.",
+            "description": "Utilize todo seu conhecimento esportivo, estratégia e sorte para acertar o maior número de previsões esportivas, e tentar disputar com outros apaixonados como você premiações acumuladas em Bitcoin.",
             "items": {
                 "1": {
                     "title": "Cadastre-se",
                     "description": "Utilize seu perfil em alguma rede social ou se preferir faça o Login Anônimo"
                 },
                 "2": {
-                    "title": "Adquira créditos",
+                    "title": "Escolha uma liga",
                     "description": "Divirta-se na Liga FREE ou selecione um dos pacotes de crédito disponíveis"
                 },
                 "3": {
-                    "title": "Chute à vontade",
-                    "description": "Selecione o evento, complete o placar, vencedores e responda aos desafios"
+                    "title": "Selecione o resultado",
+                    "description": "Escolha o evento, marque suas previsões e participe dos desafios"
                 },
                 "4": {
                     "title": "Resgate o prêmio",
@@ -111,17 +111,17 @@
                     "6": {
                         "title": "Múltiplas Previsões",
                         "icon": "mdi-numeric-9-plus-box-multiple-outline",
-                        "description": "Não limitamos sua previsão apenas ao placar ou resultado de um evento, exploramos outras variáveis e desafiaremos você a conquistar pontos extras."
+                        "description": "Não limitamos suas previsões apenas ao resultado, placar ou vencedor, desafiaremos você a conquistar pontos extras a todo instante."
                     },
                     "7": {
                         "title": "Desafie Oponentes",
                         "icon": "mdi-sword",
-                        "description": "Sentiu-se ameaçado diretamente por algum oponente? Proponha um desafio e tente retirar pontos dele e tomar o seu lugar no ranking."
+                        "description": "Sentiu-se ameaçado por algum oponente? Proponha um desafio e tente tomar o seu lugar no ranking."
                     },
                     "8": {
                         "title": "Previsões ao Vivo",
                         "icon": "mdi-theater",
-                        "description": "Altere previsões antes do início dos jogos e acompanhe o andamento ao vivo com a gente."
+                        "description": "Faça o check-in no local do evento, compartilhe momentos incríveis e ganhe créditos instantaneamente de acordo com a interação."
                     }
                 }
             }
@@ -222,8 +222,8 @@
             }
         },
         "worldcup": {
-            "title": "EVENTOS PASSADOS <br> COPA DO MUNDO 2014",
-            "description": "A Copa do Mundo de Futebol realizada em 2014 no Brasil foi o evento escolhido para o lançamento da versão alpha da bitkup.com. A cobertura durou 50 dias e nesse período recebemos mais de 600.000 visitantes únicos, de várias nacionalidades, e arrecadamos em nosso BITPOT um  <a target='_BLANK' href='https://blockchain.info/address/17CcWnEabTLNmwiSqohXuDJHvAKJo1Hy28'>prêmio acumulado de 7.26 BTC’s</a> que foram divididos entre os 20 melhores na Liga PRO.",
+            "title": "COPA DO MUNDO",
+            "description": "A Copa do Mundo de Futebol realizada em 2014 no Brasil foi o evento escolhido para o lançamento da versão alpha da bitkup.com. A cobertura durou 50 dias e nesse período recebemos mais de 600.000 visitantes únicos, de várias nacionalidades, e arrecadamos em nosso BITPOT um <a target='_BLANK' href='https://blockchain.info/address/17CcWnEabTLNmwiSqohXuDJHvAKJo1Hy28'>prêmio acumulado de 7.26 BTC’s</a> que foi dividido entre os 20 melhores da Liga PRO.",
             "free": {
                 "1": {
                     "position": "1",
@@ -593,13 +593,13 @@
             }
         },
         "beta": {
-            "title": "SOLICITAR ACESSO v2.0",
+            "title": "SOLICITAR ACESSO",
             "email": "Seu Email",
             "button": "Enviar"
         },
         "footer": {
             "description": "Bitcoin é o único método de pagamento utilizado em nossa plataforma. Nós não somos uma casa de câmbio, não trocamos Bitcoin por qualquer outra coisa que não sejam pontos na plataforma.",
-            "press": "Press"
+            "press": "FAQ | Suporte | Imprensa"
         }
     }
 }
