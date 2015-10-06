@@ -1,0 +1,10 @@
+#sport.shuffle-wrap
+  .wrapper
+    h1 Esportes
+  #grid
+    for item in sports
+      .column
+        .box
+          img(src='#{item.url}' alt='gallery')
+          figcaption
+            img.iconsvg(src="assets/img/icons/sports_soccer.svg")
