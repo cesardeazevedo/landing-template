@@ -38,11 +38,6 @@ html(lang='#{ lang }')
     script(src="#{ site_js }input.js")
     script(src="#{ site_js }points.js")
     script(src="#{ site_js }main.js")
-    script.
-      //force redirect to https
-      var host = "bitkup.com";
-      if((host == window.location.host) && (window.location.protocol != "https:"))
-        window.location.protocol = "https";
 
     title= public[lang]._data.index.title
   body
