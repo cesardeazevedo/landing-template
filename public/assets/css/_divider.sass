@@ -1,9 +1,9 @@
 .divider
-  background: rgba(121, 121, 121, 0.11)
+  background: white
   border-radius: 50%
   position: absolute
   left: 50%
-  color: #45AC6C
+  color: #eee
   margin: auto
   font-size: 18px
   cursor: pointer
@@ -15,20 +15,17 @@
   transition: all 0.2s ease
   transform: translate(-50%, -50%)
 
-  &:hover
-    background: rgba(69, 172, 108, 0.3)
-
 .divider--light
   background: rgba(255, 255, 255, 0.2)
 
 .divider:after
   border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.08);
   content: '';
   position: absolute;
   top: 4px;
   left: 4px;
   right: 4px;
   bottom: 4px;
-  background: content-box #FFF;
+  background: content-box #fff
+  border: 3px solid #eee
   z-index: -1;

@@ -1,11 +1,10 @@
 {
   "name": "landing-template",
   "version": "0.0.1",
-  "description": "",
+  "description": "template for landing pages",
   "private": true,
   "main": "gulpfile.js",
-  "author": "",
-  "license": "",
+  "license": "MIT",
   "dependencies": {
     "browser-sync": "^2.8.0",
     "gulp": "^3.8.5",

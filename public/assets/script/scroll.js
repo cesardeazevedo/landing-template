@@ -28,32 +28,8 @@ $(document).ready(function() {
         e.preventDefault();
     });
 
-    $('.btn--worldcup').click(function(e){
-        scrollTo('#worldcup');
-
-        e.preventDefault();
-    });
-
-    $('.btn--sport').click(function(e){
-        scrollTo('#sport');
-
-        e.preventDefault();
-    });
-
-    $('.btn--league').click(function(e){
-        scrollTo('#leagues');
-
-        e.preventDefault();
-    });
-
-    $('.btn--whatis').click(function(e){
-        scrollTo('#whatis');
-
-        e.preventDefault();
-    });
-
-    $('.btn--beta').click(function(e){
-        scrollTo('#beta');
+    $('.btn--video').click(function(e){
+        scrollTo('#video');
 
         e.preventDefault();
     });

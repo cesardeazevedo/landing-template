@@ -1,0 +1,14 @@
+#works.feature
+  .wrapper
+    h1 #{ works.title }
+    h3 #{ works.subtitle }
+    p #{ works.description }
+    .feature__row
+      for item, index in works.items
+        .feature__cell
+          .feature-item
+              img(src='#{ item.img }').feature-item__img
+              br
+              br
+              h2.feature-item__title(style='margin-bottom: 5px')= item.title
+              p(style='padding:10px')= item.description

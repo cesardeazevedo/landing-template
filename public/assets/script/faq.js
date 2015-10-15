@@ -11,7 +11,6 @@ $(document).ready(function(){
                 // after some time hide loader
                 setTimeout(function(){
                     loader.hide();
-
                     $(pages).toggleClass('show');
                 }, 1000);
             });

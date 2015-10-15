@@ -1,10 +1,11 @@
 {
-  "name": "bitkup.github.io",
+  "name": "landing-template",
   "version": "0.0.1",
-  "homepage": "https://github.com/bitkup/bitkup.github.io",
-  "description": "bower components for bitkup landing page",
+  "homepage": "https://github.com/cesardeazevedo/landing-template",
+  "description": "bower components for landing-template page",
   "keywords": [
-    "bitkup"
+    "landing",
+    "template"
   ],
   "authors": [
     "Anderson-Juhasc",

@@ -58,16 +58,10 @@ $(document).ready(function(){
         }
     });
 
-
-    point($("#worldcup"), null, function() {
-        $("#worldcup table.free").addClass("animated fadeInRightSmall");
+    point($("#video"), null, function() {
         setTimeout(function(){
-            $("#worldcup table.pro").addClass("animated fadeInRightSmall");
-        }, 300);
-        setTimeout(function(){
-            if(!$('#video').length)
-                $("#whatis > .wrapper").append('<iframe id="video" width="100%" height="515" src="//www.youtube.com/embed/Gc2en3nHxA4?rel=0" frameborder="0" allowfullscreen></iframe>');
+            if(!$('#youtube').length)
+                $("#video > .wrapper").append('<iframe id="youtube" width="100%" height="515" src="//www.youtube.com/embed/h_iFxfCh2B8?rel=0" frameborder="0" allowfullscreen></iframe>');
         }, 800);
     });
-
 });

@@ -7,8 +7,7 @@
     padding: 0
     &:hover
       .dropdown-active
-        background: rgba(255,255,255,.25)
-        // border-color: rgba(#000, .2)
+        background: rgba(255,255,255,1)
       .dropdown-active__text
         color: #7d7d7d
       .dropdown__body
@@ -16,16 +15,9 @@
 
 .dropdown-active
   +cf
-  // border-bottom: 1px solid rgba(#000, .08)
-  // padding: 12px 6px 6px
-  // padding: 0px
   margin-top: -25px
   top: 20px
   +media-query(desk)
-    // border-width: 1px 1px 0
-    // border-style: solid
-    // border-color: transparent
-    // border-bottom: none
     color: #7d7d7d
     cursor: default
     padding: 12px
@@ -48,24 +40,18 @@
   list-style: none
   margin: 0
   > li
-    // border-bottom: 1px dotted rgba(#000, .08)
-    &:last-child
-      // border-bottom: none
     > a
       color: #7d7d7d
       display: block
-      // padding: 8px 6px
       padding-top: 8px!important
       padding-bottom: 12px!important
       padding-left: 14px!important
       padding-right: 14px!important
       &:hover
-        background: #44A668
+        background: #eee
         color: #fff
   +media-query(desk)
-    // box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2)
-    background: rgba(255,255,255,.25)
-    // border: 1px solid rgba(#000, .2)
+    background: rgba(255,255,255,1)
     display: none
     padding: 0
     position: absolute

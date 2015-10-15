@@ -3,26 +3,7 @@ html(lang='#{ lang }')
   head
     meta(charset='UTF-8')
     meta(name='viewport' content='width=device-width, initial-scale=1')
-    meta(name="description" content="#{ public[lang]._data.index.description }")
-    meta(name="keywords" content="#{ public[lang]._data.index.keywords }")
-    meta(name='author' content='bitkup')
-    meta(name='revisit-after' content='5 days')
 
-    meta(property='og:locate' content='#{ lang }')
-    meta(property="og:title" content="#{ public[lang]._data.index.title }")
-    meta(property='og:site_name' content='bitkup.com')
-    meta(property='og:url' content='https://www.bitkup.com')
-    meta(property="og:image" content="https://bitkup.com/img/fb-img-post.png")
-    meta(property='og:type' content='website')
-    meta(property="og:description" content="#{ public[lang]._data.index.description }")
-
-    meta(name='twitter:card' content='summary')
-    meta(name='twitter:title' content='#{ public[lang]._data.index.title }')
-    meta(name='twitter:description' content='#{ public[lang]._data.index.description }')
-    meta(name='twitter:image' content='https://bitkup.com/img/fb-img-post.png')
-    meta(name='twitter:site' content='bitkup.com')
-
-    link(rel="canonical"  href='https://bitkup.com')
     link(rel='stylesheet' href='assets/css/style.css')
     link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700')
     link(rel='stylesheet' href='dest/components.min.css' media='all')
@@ -42,7 +23,6 @@ html(lang='#{ lang }')
     title= public[lang]._data.index.title
   body
     header.head
-      canvas(id="back" style="width:100%;height:100%;position:absolute;top:0px;opacity:1")
       .head__bg
         .head__row
           .wrapper
@@ -72,49 +52,25 @@ html(lang='#{ lang }')
                 li
                   span.btn--platform= public[lang]._data.index.nav.platform
                 li
-                  span.btn--whatis= public[lang]._data.index.nav.whatis
+                  span.btn--video= public[lang]._data.index.nav.video
                 li
-                  span.btn--worldcup= public[lang]._data.index.nav.worldcup
-
-                //- li
-                  //- span.btn--sport= public[lang]._data.index.nav.sports
-                //- li
-                  //- span.btn--league= public[lang]._data.index.nav.leagues
-                //- li
-                  //- a.link-rules(href='#')
-                    //- span= public[lang]._data.index.nav.rules
-                //- li
-                  //- a.link-faq(href='#')
-                    //- span= public[lang]._data.index.nav.faq
+                  a.link-faq(href='#')
+                    span= public[lang]._data.index.nav.faq
                 li
-                  a(href='mail:contato@bitkup.com')= public[lang]._data.index.nav.contact
+                  a(href='#')= public[lang]._data.index.nav.contact
                 li
                   span
                     .head__languages.dropdown
                       .dropdown-active
                         .dropdown-active__icon
-                          span.flag-icon.flag-icon-br
+                          span.flag-icon.flag-icon-gb
                       ul.dropdown__body
-                        //- li
-                          //- a(href='/en')
-                            //- span.flag-icon.flag-icon-gb
                         li
-                          a(href='/')
-                            span.flag-icon.flag-icon-br
-                        //- li
-                          //- a(href='/es')
-                            //- span.flag-icon.flag-icon-es
-                //li.dropdown
-                //  .dropdown-active
-                //    .dropdown-active__icon
-                //    .dropdown-active__text Language
-                //  ul.dropdown__body
-                //    li
-                //      a(href='/') EN
-                //    li
-                //      a(href='/pt-br/') PT-BR
-                //    li
-                //      a(href='/es/') ES
+                          a(href='/en')
+                            span.flag-icon.flag-icon-gb
+                        li
+                          a(href='/es')
+                            span.flag-icon.flag-icon-es
         .wrapper
           .banner.animateme.scrollme(data-when="span" data-from="0.0" data-to="1" data-scale="0.75" data-opacity="0.1" data-easing="easein")
             h1.banner__title= public[lang]._data.index.banner.title
@@ -122,8 +78,8 @@ html(lang='#{ lang }')
             div
               ul.banner__list
                 li
-                  button.button.button--antiman.button--primary.button--text-thick.button--text-upper.button--size-m.button--inverted-alt.button--round-s.button--border-thick.btn--works
+                  button.btn.btn-1.btn-1e
                     span= public[lang]._data.index.banner.works_button
                 li
-                  button.button.button--antiman.button--text-thick.button--text-upper.button--size-m.button--inverted-alt.button--round-s.button--border-thick.btn--beta
-                    span= public[lang]._data.index.banner.beta_button
+                  button.btn.btn-1.btn-1e
+                    span= public[lang]._data.index.banner.newsletter_button

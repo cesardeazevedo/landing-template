@@ -9,7 +9,6 @@
     $('input').blur(onInputBlur);
 
     function onInputFocus() {
-        console.log('focus');
         inputEl.add('input--filled');
     }
 
@@ -18,4 +17,3 @@
             inputEl.removeClass('input--filled');
     }
 })();
-
